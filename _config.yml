@@ -1,0 +1,25 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Oded Welgreen
+tagline:          'A Jekyll theme'
+description:      'A developer, a gamer and a musician.'
+url:              http://www.odedwelgreen.com
+
+author:
+  name:           'Oded Welgreen'
+  url:            https://twitter.com/InjaGames
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/poole/lanyon
+
