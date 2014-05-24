@@ -1,14 +1,23 @@
-- name: Game of Music
-  image: /images/gameofmusic.gif
-  repo: https://github.com/odedw/game-of-music
-  link: http://gameofmusic.odedwelgreen.com
-  video: https://www.youtube.com/watch?v=bYbnqDYHiHg
-  description: A musical experiment based on Conway's Game of Life. Game of Music is basically a music sequencer that uses Conway's Game of Life's rules to generate each state. Once you lock some cells (mainly the drums) you surprisingly get pretty good results that sound at times like actual improvisations.
+-   name: Game of Music
+    image: /images/gameofmusic.gif
+    repo: https://github.com/odedw/game-of-music
+    link: http://gameofmusic.odedwelgreen.com
+    music: 
+    video: https://www.youtube.com/watch?v=bYbnqDYHiHg
+    description: Game of Music is a music sequencer that uses Conway's Game of Life's rules to generate each state. Build and share a link directly to your track. 
 
-- name: Super Fantasy Queue
-  image: /images/sfq.gif
-  repo: https://github.com/odedw/super-fantasy-queue
-  link: http://sfq.odedwelgreen.com
-  music: https://soundcloud.com/injagames/sets/super-fantasy-queue
-  description: Made for Github's 2013 game off jam, Super Fantasy Queue is a short game about the most important decision a hero could make - which line to stand in.
-  
+-   name: Super Fantasy Queue
+    image: /images/sfq.gif
+    repo: https://github.com/odedw/super-fantasy-queue
+    link: http://sfq.odedwelgreen.com
+    music: https://soundcloud.com/injagames/sets/super-fantasy-queue
+    video:
+    description: Made for Github's 2013 game off jam, Super Fantasy Queue is a short game about the most important decision a hero could make - which line to stand in.
+
+-   name: caseIt
+    image: /images/caseit.gif
+    repo: https://github.com/odedw/caseit
+    link: http://caseit.odedwelgreen.com
+    music: 
+    video:
+    description: A simple web tool for text transformations designed to work with keyboard shortcuts.
