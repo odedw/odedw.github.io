@@ -6,6 +6,7 @@
     music: 
     video: https://www.youtube.com/watch?v=bYbnqDYHiHg
     description: Game of Music is a music sequencer that uses Conway's Game of Life's rules to generate each state. Build and share a link directly to your track. 
+    cta: play it
 
 -   name: Super Fantasy Queue
     image: /images/sfq.gif
@@ -15,6 +16,7 @@
     music: https://soundcloud.com/injagames/sets/super-fantasy-queue
     video:
     description: Made for Github's 2013 game off jam, Super Fantasy Queue is a short game about the most important decision a hero could make - which line to stand in.
+    cta: play it
 
 -   name: caseIt
     image: /images/caseit.gif
@@ -24,3 +26,4 @@
     music: 
     video:
     description: A simple web tool for text transformations designed to work with keyboard shortcuts.
+    cta: use it

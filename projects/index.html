@@ -7,7 +7,14 @@ title: Projects
         {% for project in site.data.projects %}
         <li>
             <div class="project">
-                <a href="{{ project.link }}"><img class="gfyitem project-image" data-id="{{ project.gfycat }}" data-dot="false" data-controls="false"/></a>
+                <a href="{{ project.link }}" target="_blank">
+                    <div class="project-image transition-ease">
+                        <img class="gfyitem transition-ease" data-id="{{ project.gfycat }}" data-dot="false" data-controls="false"/>
+                        <div class="overlay transition-ease">
+                        </div>
+                        <span class="cta transition-ease">{{ project.cta }}</span>  
+                    </div>
+                </a>
                 <h3 class="project-title"><a href="{{ project.link }}">{{ project.name }}</a></h3> 
                 <div class="project-links">
                     <a href="{{ project.repo }}" title="Projects" target="_blank">github</a>
