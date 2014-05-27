@@ -72,3 +72,31 @@
   top: 40%;
   opacity: 1;
 }
+#music-list {
+  /* line 26, ../_sass/_base.scss */
+}
+#music-list ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  width: 100%;
+}
+#music-list ul .youtube-video {
+  margin-bottom: 10px;
+}
+#music-list .video-wrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+}
+#music-list .video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

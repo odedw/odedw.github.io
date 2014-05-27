@@ -1,0 +1,12 @@
+-   name: Super Fantasy Queue
+    description: Written for Github's 2013 game-off, <a href="http://sfq.odedwelgreen.com" target="_blank">Super Fantasy Queue</a>'s music has a 16-bit kind of feel to it. Created with Cubase, using Tweakbench's <a href="" target="_blank">Peach</a> VST.
+    type: soundcloud
+    embed: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/17229692&amp;auto_play=false&amp;hide_related=false&amp;show_user=false&show_artwork=true'    
+-   name: XenoSerf
+    description: <a href="http://www.h-bomb.fr/games_xenoserf" target="_blank">XenoSerf</a>, a game about Liberty and quality cattle, was created by <a href="http://www.h-bomb.fr" target="_blank">H-Bomb Studio</a> for Ludum Dare 28. The Music was created with Cubase.
+    type: soundcloud
+    embed: 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/17229938&amp;auto_play=false&amp;hide_related=false&amp;show_user=false&show_artwork=true'    
+-   name: Last of Us Covers
+    description: 
+    type: youtube
+    embed: [N4bPsMeur8E,UKQRVnt9M1I]
