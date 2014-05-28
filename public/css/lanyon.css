@@ -99,6 +99,8 @@ a:hover {
   display: inline-block;
   width: 140px;
   color: #505050;
+  font-size: 20px;
+  line-height: 25px;
 }
 .masthead .masthead-title a:hover {
   color: #bbb;
@@ -139,6 +141,8 @@ a:hover {
   .masthead .masthead-title {
     float: left;
     margin-right: 10px;
+    font-size: 20px;
+    line-height: 25px;
   }
   .masthead nav {
     float: left;

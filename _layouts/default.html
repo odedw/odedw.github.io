@@ -9,9 +9,9 @@
         <div class="wrap">
             <div class="masthead">
                 <div class="container">
-                    <h3 class="masthead-title">
+                    <h1 class="masthead-title">
                         <a href="/" title="Home">{{ site.title }}</a>           
-                    </h3>
+                    </h1>
                     <nav>
                         <a href="/projects" title="Projects">projects</a>
                         <span>•</span>
@@ -32,9 +32,14 @@
 
             <div class="container content">
                 {{ content }}
+                  
             </div>
+           
         </div>
+        
+            {% include footer.html %}
 
+       
         {% include analytics.html %}
         <script>
             (function(d, t) {
