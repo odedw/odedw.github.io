@@ -129,31 +129,49 @@
 
 #about-container{
     text-align: left;
-    #first-section{
+    .section{
         margin: auto;
         overflow: auto;
         width: 200px;
+        margin-bottom: 20px;
         @media (min-width : 26rem) {  width: auto; } 
-        #profile-pic{
-            margin: auto;
-            width: 200px;
-            @media (min-width : 26rem) { 
-                float:left;
-                margin-right: 30px; 
-            } 
-        }
-        span{
-            @media (min-width : 26rem) { font-size: 16px; } 
-            font-size:14px;   
-        }
+
         .section-text{
             margin: auto;
             .section-header{
                 margin-top: 8px;   
             }
+
+            span{
+                @media (min-width : 26rem) { font-size: 16px; } 
+                font-size:14px;   
+            }
+        }
+
+        .section-image{
+            margin: auto;
+            width: 200px;
+            @media (min-width : 26rem) { 
+                &.left{
+                    float:left;                    
+                    margin-right: 30px; 
+                }
+                
+                &.right{
+                    float:right;                    
+                    margin-left: 30px; 
+                }
+            } 
         }
     }
 
+    #interests{
+        #pcg-canvas{
+            background-color:white;   
+            width:200px;
+            height:200px;
+        }
+    }
 }
 
 #footer{    
