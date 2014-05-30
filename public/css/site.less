@@ -127,21 +127,49 @@
     }
 }
 
+#about-container{
+    text-align: left;
+    #first-section{
+        margin: auto;
+        overflow: auto;
+        width: 200px;
+        @media (min-width : 26rem) {  width: auto; } 
+        #profile-pic{
+            margin: auto;
+            width: 200px;
+            @media (min-width : 26rem) { 
+                float:left;
+                margin-right: 30px; 
+            } 
+        }
+        span{
+            @media (min-width : 26rem) { font-size: 16px; } 
+            font-size:14px;   
+        }
+        .section-text{
+            margin: auto;
+            .section-header{
+                margin-top: 8px;   
+            }
+        }
+    }
+
+}
+
 #footer{    
     margin-top:15px;
     font-size:10px;
     text-align: center;
     border-top: 1px solid #eee;
     padding-top:5px;
-
+    clear: both;
     padding-bottom:5px;
-}
 
-@media (min-width: 22rem) {
-    #footer{    
-
+    @media (min-width: 22rem) {
         font-size:12px;
         text-align: right;    
         padding-right:20px;
+
     }
 }
+
