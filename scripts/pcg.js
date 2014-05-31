@@ -24,8 +24,20 @@
 
     context.lineWidth = 2;
     context.strokeStyle = "#ccc";
+    function rotateCanvas(angle){
+        $c.css('-webkit-transform','rotate('+angle+'deg)');
+        $c.css('transform','rotate('+angle+'deg)');
+        $c.css('-ms-transform','rotate('+angle+'deg)');
+    }
+    function setTransformSpeed(sec){
+        $c.css('-webkit-transition','all '+sec+'s ease');
+        $c.css('-moz-transition','all '+sec+'s ease');
+        $c.css('-ms-transition','all '+sec+'s ease');
+        $c.css('-o-transition','all '+sec+'s ease');
+        $c.css('transition','all '+sec+'s ease');    
+    }
     function start() {
-        context.clearRect(0, 0, 200, 200);
+        context.clearRect(0, 0, 200, 200);        
         setTimeout(function () {
             if (ticker) {
                 ticker.stop();
@@ -46,22 +58,24 @@
                     var index = Math.floor((Math.random() * circleCenters.length));
                     var circle = circleCenters[index];
                     circleCenters.splice(index,1);
-                    $c.css('-webkit-transform','rotate('+(270 - circle.a)+'deg)');
-                    $c.css('transform','rotate('+(270 - circle.a)+'deg)');
-                    $c.css('-ms-transform','rotate('+(270 - circle.a)+'deg)');
-                    console.log(circle.a);
+                    rotateCanvas(270 - circle.a);
                     timeoutId = setTimeout(function(){
                         animateCircle(circle.x,circle.y,smallCircleRadius,chooseAndPaintCircle);
                     },900);
                 }
                 else{
-                    start();   
+                    setTransformSpeed(10);
+                    rotateCanvas(3600);
+                    setTimeout(function(){      
+                        setTransformSpeed(1);
+                        start();
+                    },11000);
                 }
             };
             chooseAndPaintCircle();
         },500); 
     }
-    
+
     $c.click(function(){
         running = !running;        
     });
@@ -69,5 +83,5 @@
     $(function(){
         start();
     });
-    
+
 }());
