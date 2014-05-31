@@ -1,55 +1,69 @@
 (function() {
     var c = document.getElementById('pcg-canvas'),
-        context = c.getContext("2d"),
-        centerx = context.canvas.width / 2,
-        centery = context.canvas.height / 2,
-        a = 1,
-        b = 1.3,
-        i = 0,
-        clearing = false,
-        ticker = null,
-        running = true,
-        paintSegment = function () {       
-            console.log('tick');
-            if (i >= 720) {
-                clearing = !clearing;
-                if (!clearing) {
-                    context.clearRect(0, 0, 200, 200);
-
+        context = c.getContext("2d"),ticker,
+        centerx = context.canvas.width / 2, centery = context.canvas.height / 2, circ = Math.PI * 2,
+        running = true, timeoutId,
+        fps = 60, numberOfSegmentsPerCircle = 30, circleCenters = [], mainCircleRadius = 60, smallCircleRadius = 30,
+        animateCircle = function(x, y, r, finishedCallback){
+            context.beginPath();
+            var current = 0;
+            ticker.start(fps,function(){
+                if (!running)
+                    return;
+                if (current < numberOfSegmentsPerCircle){
+                    context.arc(x, y, r, circ * (current / numberOfSegmentsPerCircle), circ * ((current+1) / numberOfSegmentsPerCircle), false);
+                    context.stroke();
+                    current++;
                 }
-                context.beginPath();
-                context.strokeStyle = clearing ? "#282828" : "#fff";
-                context.lineWidth = clearing ? 3 : 1;
-                context.moveTo(centerx, centery);            
-                i = 0;            
-            }
-            if (i < 720) {        
-                angle = 0.1 * i;
-                x = centerx + (a + b * angle) * Math.cos(angle);
-                y = centery + (a + b * angle) * Math.sin(angle);
-                context.lineTo(x, y);
-                context.stroke();            
-                i++;    
-            }
-        };
-        
-    context.clearRect(0, 0, 200, 200);
-    context.moveTo(centerx, centery);
-    context.lineWidth = 1;
-    context.strokeStyle = "#fff";
+                else{
+                    ticker.stop();   
+                    finishedCallback();
+                }
+            });
+        };            
 
-    $(function(){
-        ticker = new RAFTicker();
-        ticker.start(30, paintSegment);
-    });
+    context.lineWidth = 2;
+    context.strokeStyle = "#ccc";
+    function start(){
+        context.clearRect(0,0,200,200);
+        setTimeout(function(){
+            if (ticker) ticker.stop();
+            else ticker = new RAFTicker();   
+            clearTimeout(timeoutId);
+            for (var i = 0;i<numberOfSegmentsPerCircle;i++) {
+                circleCenters.push({ 
+                    x: centerx + mainCircleRadius * Math.cos(circ * (i / numberOfSegmentsPerCircle)),
+                    y: centery + mainCircleRadius * Math.sin(circ * (i / numberOfSegmentsPerCircle)),
+                    a: (circ * (i / numberOfSegmentsPerCircle)) * 180 / Math.PI
+                });
+            }
+            context.clearRect(0,0,200,200);
+            function chooseAndPaintCircle () {
+                if (circleCenters.length > 0){
+                    var index = Math.floor((Math.random() * circleCenters.length));
+                    var circle = circleCenters[index];
+                    circleCenters.splice(index,1);
+                    $('#pcg-canvas').css('-webkit-transform','rotate('+(270 - circle.a)+'deg)');
+                    $('#pcg-canvas').css('transform','rotate('+(270 - circle.a)+'deg)');
+                    $('#pcg-canvas').css('-ms-transform','rotate('+(270 - circle.a)+'deg)');
+                    console.log(circle.a);
+                    timeoutId = setTimeout(function(){
+                        animateCircle(circle.x,circle.y,smallCircleRadius,chooseAndPaintCircle);
+                    },500);
+                }
+                else{
+                    start();   
+                }
+            };
+            chooseAndPaintCircle();
+        },500); 
+    }
 
     $('#pcg-canvas').click(function(){
-        if (running) {
-            ticker.stop();
-        }
-        else{
-            ticker.start(30,paintSegment);
-        }
         running = !running;
+    });
+
+    $(function(){
+        start();
     });
 }());
