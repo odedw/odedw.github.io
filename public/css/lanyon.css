@@ -137,7 +137,10 @@ a:hover {
 .masthead .social-icons a.youtube:before {
   content: "U";
 }
-@media (min-width: 38rem) {
+.masthead .social-icons a.email:before {
+  content: "]";
+}
+@media (min-width: 56rem) {
   .masthead .masthead-title {
     float: left;
     margin-right: 10px;
