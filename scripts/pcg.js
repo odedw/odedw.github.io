@@ -76,10 +76,6 @@
         },500); 
     }
 
-    $c.click(function(){
-        running = !running;        
-    });
-
     $(function(){
         start();
     });
