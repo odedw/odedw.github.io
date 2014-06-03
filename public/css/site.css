@@ -147,10 +147,10 @@
     margin-left: 30px;
   }
 }
-#about-container #interests #pcg-container {
+#about-container #pcg-container {
   overflow: hidden;
 }
-#about-container #interests #pcg-container #pcg-canvas {
+#about-container #pcg-container #pcg-canvas {
   background-color: transparent;
   width: 200px;
   height: 200px;

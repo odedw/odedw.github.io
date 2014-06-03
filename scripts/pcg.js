@@ -1,13 +1,13 @@
 (function () {
     var c = document.getElementById('pcg-canvas'), $c = $(c),
-        context = c.getContext("2d"), ticker,
+        context = c.getContext("2d"), stage, listener,
         centerx = context.canvas.width / 2, centery = context.canvas.height / 2, circ = Math.PI * 2,
         running = true, timeoutId,
         fps = 60, numberOfSegmentsPerCircle = 15, circleCenters = [], mainCircleRadius = 60, smallCircleRadius = 30, numberOfCircles = 30,
         animateCircle = function (x, y, r, finishedCallback) {
             context.beginPath();
             var current = 0;
-            ticker.start(fps, function () {
+            listener = createjs.Ticker.on("tick", function () {
                 if (!running) {
                     return;
                 }
@@ -16,7 +16,7 @@
                     context.stroke();
                     current++;
                 } else {
-                    ticker.stop();   
+                    createjs.Ticker.off("tick", listener);
                     finishedCallback();
                 }
             });
@@ -34,15 +34,14 @@
         $c.css('-moz-transition','all '+sec+'s ease');
         $c.css('-ms-transition','all '+sec+'s ease');
         $c.css('-o-transition','all '+sec+'s ease');
-        $c.css('transition','all '+sec+'s ease');    
+        $c.css('transition','all '+sec+'s ease');     
     }
     function start() {
         context.clearRect(0, 0, 200, 200);        
         setTimeout(function () {
-            if (ticker) {
-                ticker.stop();
-            } else {
-                ticker = new RAFTicker();   
+            createjs.Ticker.setFPS(60);
+            if (listener) {
+                createjs.Ticker.off("tick", listener);
             }
             clearTimeout(timeoutId);
             for (var i = 0; i<numberOfCircles; i++) {
