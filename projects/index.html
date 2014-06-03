@@ -31,7 +31,16 @@ title: Projects
                 <p>{{ project.description }}</p>                                
             </div>
         </li>
+        {% endfor %}            
+    </ul>
+    <ul>
+        {% for codepen in site.data.codepens %}
+        <li class="codepen-item">
+            <h3 class="codepen-header">{{ codepen.name }}</h3>
+            <p data-height="329" data-theme-id="6466" data-slug-hash="{{ codepen.hash }}" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/odedw/pen/{{ codepen.hash }}/'>Loading Icon</a> by Oded Welgreen (<a href='http://codepen.io/odedw'>@odedw</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+        </li>
         {% endfor %}
     </ul>
+    <script async src="//codepen.io/assets/embed/ei.js"></script>
 </div>
 

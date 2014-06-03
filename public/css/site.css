@@ -19,6 +19,9 @@
   overflow: auto;
   margin-bottom: 30px;
 }
+#project-list li .codepen-header {
+  margin-bottom: 8px;
+}
 #project-list li .project-links {
   font-size: 14px;
 }
