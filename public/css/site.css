@@ -147,6 +147,14 @@
     margin-left: 30px;
   }
 }
+#about-container #circle-container {
+  overflow: hidden;
+}
+#about-container #circle-container canvas {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+}
 #about-container #pcg-container {
   overflow: hidden;
 }
