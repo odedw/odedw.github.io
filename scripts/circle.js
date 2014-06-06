@@ -1,6 +1,7 @@
 (function(){
     var stage,
         color = '#ccc',
+        limit = -30000,
         s = 180, 
         time,
         r,
@@ -78,6 +79,11 @@
         }
 
         createjs.Tween.get(circleContainer).to({rotation: circleContainer.rotation + rotationAngle , x: target.x, y: target.y}, time, createjs.Ease.quadInOut).call(function(){
+            if (circleContainer.rotation < limit) {
+                createjs.Ticker.off("tick", listener);
+                init();
+                return;
+            }
             circlePos = nextPos;
             nextAnimationSegment();
         });
