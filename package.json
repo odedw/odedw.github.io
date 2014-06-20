@@ -1,0 +1,24 @@
+{
+  "name": "odedw.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/odedw/odedw.github.io.git"
+  },
+  "author": "Oded Welgreen",  
+  "bugs": {
+    "url": "https://github.com/odedw/odedw.github.io/issues"
+  },
+  "homepage": "https://github.com/odedw/odedw.github.io",
+    "devDependencies": {  
+          "grunt" :                       "~0.4.*",  
+          "grunt-contrib-cssmin":         "*",  
+          "grunt-contrib-uglify":         "*",  
+          "matchdep":                     "*"  
+  }  
+}
