@@ -1,11 +1,11 @@
--   name: Karcero
+-   name: Map of Thedas
     image: /images/caseit.gif
-    repo: https://github.com/odedw/karcero
-    link: http://www.odedwelgreen.com/karcero
-    gfycat: SerenePoliticalAntarcticgiantpetrel
+    repo: https://github.com/odedw/world-of-thedas
+    link: http://thedas.odedwelgreen.com
+    gfycat: WillingNervousHoneycreeper
     music: 
     video:
-    description: A procedural dungeon tile based map generator.
+    description: A searchable map of Thedas - the Dragon Age world.
     cta: use it
 
 -   name: Game of Music
