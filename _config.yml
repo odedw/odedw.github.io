@@ -8,7 +8,7 @@ permalink:        pretty
 # Setup
 title:            Oded Welgreen
 tagline:          'A Jekyll theme'
-description:      'A developer, a gamer, a musician and a father.'
+description:      'Full stack developer, musician and gamer.'
 url:              http://www.odedwelgreen.com
 
 author:
@@ -22,4 +22,3 @@ version:          2.0.0
 
 github:
   repo:           https://github.com/poole/lanyon
-
