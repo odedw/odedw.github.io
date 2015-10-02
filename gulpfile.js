@@ -19,7 +19,7 @@ gulp.task('bundle-css', ['less'], function() {
  'styles/css/site.css'
 ])
    .pipe(concat('styles.min.css'))
-   .pipe(minifyCss())
+  //  .pipe(minifyCss())
    .pipe(gulp.dest('./public/css'));
 });
 
@@ -27,4 +27,4 @@ gulp.task('watch', function () {
    gulp.watch('styles/less/*.less', ['bundle-css']);
 });
 
-gulp.task('default', ['less', 'watch']);
+gulp.task('default', ['bundle-css', 'watch']);
