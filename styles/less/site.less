@@ -1,11 +1,12 @@
+@import "lanyon";  
 #project-list{
     text-align: left;
     .transition-ease{
-        -webkit-transition: all 300ms ease-out;  
-        -moz-transition: all 300ms ease-out;  
-        -o-transition: all 300ms ease-out;  
-        -ms-transition: all 300ms ease-out;  
-        transition: all 300ms ease-out;     
+        -webkit-transition: all 300ms ease-out;
+        -moz-transition: all 300ms ease-out;
+        -o-transition: all 300ms ease-out;
+        -ms-transition: all 300ms ease-out;
+        transition: all 300ms ease-out;
     }
 
     ul {
@@ -22,18 +23,18 @@
         overflow: auto;
         margin-bottom:30px;
 
-        .codepen-header{               
-            margin-bottom:8px;             
+        .codepen-header{
+            margin-bottom:8px;
         }
 
         .project-links{
-            font-size:14px;   
+            font-size:14px;
         }
 
         h3 {
             margin-bottom:0;
             margin-top:0;
-        } 
+        }
 
         p {
             font-size:14px;
@@ -45,7 +46,7 @@
             height:170px;
             width:232px;
             border: 2px solid #fff;
-            box-shadow: 0 0 1px rgba(0,0,0,0.2); 
+            box-shadow: 0 0 1px rgba(0,0,0,0.2);
             box-sizing: content-box;
             position:relative;
             overflow: hidden;
@@ -53,7 +54,7 @@
 
             .overlay{
                 background:black;
-                opacity: 0;   
+                opacity: 0;
                 position:absolute;
                 top:0;
                 bottom: 0;
@@ -80,10 +81,10 @@
 
             &:hover{
                 .gfyitem{
-                    -moz-transform: scale(1.2);  
-                    -o-transform: scale(1.2);  
-                    -webkit-transform: scale(1.2);  
-                    transform: scale(1.2);     
+                    -moz-transform: scale(1.2);
+                    -o-transform: scale(1.2);
+                    -webkit-transform: scale(1.2);
+                    transform: scale(1.2);
                 }
 
                 .overlay{
@@ -91,11 +92,11 @@
                 }
 
                 .cta{
-                    top:40%;   
+                    top:40%;
                     opacity: 1;
                 }
-            }                        
-        } 
+            }
+        }
     }
 }
 
@@ -106,11 +107,11 @@
         list-style-type: none;
 
         padding-left: 0;
-        margin:0;       
+        margin:0;
         width:100%;
 
         .youtube-video{
-            margin-bottom:10px;   
+            margin-bottom:10px;
         }
     }
 
@@ -139,49 +140,49 @@
         overflow: auto;
         width: 200px;
         margin-bottom: 20px;
-        @media (min-width : 26rem) {  width: auto; } 
+        @media (min-width : 26rem) {  width: auto; }
 
         .section-text{
             margin: auto;
             .section-header{
-                margin-top: 8px;   
+                margin-top: 8px;
             }
 
             span{
-                @media (min-width : 26rem) { font-size: 16px; } 
-                font-size:14px;   
+                @media (min-width : 26rem) { font-size: 16px; }
+                font-size:14px;
             }
         }
 
         .section-image{
             margin: auto;
             width: 200px;
-            @media (min-width : 26rem) { 
+            @media (min-width : 26rem) {
                 &.left{
-                    float:left;                    
-                    margin-right: 30px; 
+                    float:left;
+                    margin-right: 30px;
                 }
 
                 &.right{
-                    float:right;                    
-                    margin-left: 30px; 
+                    float:right;
+                    margin-left: 30px;
                 }
-            } 
+            }
         }
     }
 
     #circle-container{
-        overflow:hidden;   
+        overflow:hidden;
         canvas{
-            background-color:transparent;   
+            background-color:transparent;
             width:200px;
-            height:200px;   
+            height:200px;
         }
     }
     #pcg-container{
         overflow:hidden;
         #pcg-canvas{
-            background-color:transparent;   
+            background-color:transparent;
             width:200px;
             height:200px;
             transform:rotate(0deg);
@@ -197,7 +198,7 @@
 
 }
 
-#footer{    
+#footer{
     margin-top:15px;
     font-size:10px;
     text-align: center;
@@ -208,9 +209,8 @@
 
     @media (min-width: 22rem) {
         font-size:12px;
-        text-align: right;    
+        text-align: right;
         padding-right:20px;
 
     }
 }
-
