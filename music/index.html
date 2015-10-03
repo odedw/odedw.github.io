@@ -9,10 +9,10 @@ title: Music
         <li>
             <div class="music-object">
                 <h2>{{ musicObject.name }}</h2>
-                {% if musicObject.description != "" and musicObject.description != nil %}      
+                {% if musicObject.description != "" and musicObject.description != nil %}
                 <p>{{ musicObject.description }}</p>
                 {% endif %}
-                {% if musicObject.type == "soundcloud" %}     
+                {% if musicObject.type == "soundcloud" %}
                 <iframe width="260" height="350" scrolling="no" frameborder="no" src="{{ musicObject.embed }}"></iframe>
                 {% elsif musicObject.type == "youtube" %}
                 {% for video in musicObject.embed %}
@@ -27,4 +27,3 @@ title: Music
         {% endfor %}
     </ul>
 </div>
-<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>

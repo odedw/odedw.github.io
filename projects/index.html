@@ -12,26 +12,26 @@ title: Projects
                         <img class="gfyitem transition-ease" data-id="{{ project.gfycat }}" data-dot="false" data-controls="false"/>
                         <div class="overlay transition-ease">
                         </div>
-                        <span class="cta transition-ease">{{ project.cta }}</span>  
+                        <span class="cta transition-ease">{{ project.cta }}</span>
                     </div>
                 </a>
-                <h3 class="project-title"><a href="{{ project.link }}">{{ project.name }}</a></h3> 
+                <h3 class="project-title"><a href="{{ project.link }}">{{ project.name }}</a></h3>
                 <div class="project-links">
                     <a href="{{ project.repo }}" title="Projects" target="_blank">github</a>
-                    {% if project.music != "" and project.music != nil %}                                        
+                    {% if project.music != "" and project.music != nil %}
                     <span>•</span>
                     <a href="{{ project.music }}" title="Music" target="_blank">music</a>
                     {% endif %}
-                    {% if project.video != "" and project.video != nil %}  
+                    {% if project.video != "" and project.video != nil %}
                     <span>•</span>
                     <a href="{{ project.video }}" title="Video" target="_blank">video</a>
                     {% endif %}
 
                 </div>
-                <p>{{ project.description }}</p>                                
+                <p>{{ project.description }}</p>
             </div>
         </li>
-        {% endfor %}            
+        {% endfor %}
     </ul>
     <ul>
         {% for codepen in site.data.codepens %}
@@ -42,6 +42,4 @@ title: Projects
         {% endfor %}
     </ul>
     <script async src="//codepen.io/assets/embed/ei.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 </div>
-
