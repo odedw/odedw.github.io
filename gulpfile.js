@@ -33,13 +33,13 @@ gulp.task('bundle-js', function() {
     .pipe(gulp.dest('build/public/js'));
 });
 
-var htmlSources = ['*.html', '**/*.html','!node_modules/**','!_site/**', '!build/**'];
+var htmlSources = ['*.html', '**/*.html','!node_modules/**','!_site/**', '!build/**', 'favicon.ico'];
 gulp.task('bundle-html', function() {
   return gulp.src(htmlSources)
     .pipe(gulp.dest('build'));
 });
 
-var staticContent = ['static/**', 'favicon.ico'];
+var staticContent = ['static/**'];
 gulp.task('copy-static', function() {
   return gulp.src(staticContent)
     .pipe(gulp.dest('build/public'));
