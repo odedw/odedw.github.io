@@ -45,12 +45,18 @@ gulp.task('copy-static', function() {
     .pipe(gulp.dest('build/public'));
 });
 
+var jekyllContent = ['_data/*'];
+gulp.task('copy-jekyll', function() {
+  return gulp.src(jekyllContent)
+    .pipe(gulp.dest('build/_data'));
+});
+
 gulp.task('watch', function () {
    gulp.watch(lessSources, ['bundle-css']);
    gulp.watch(scriptSources, ['bundle-js']);
    gulp.watch(htmlSources, ['bundle-html']);
    gulp.watch(staticContent, ['copy-static']);
-
+   gulp.watch(jekyllContent, ['copy-jekyll']);
 });
 
-gulp.task('default', ['bundle-css', 'bundle-js', 'bundle-html', 'copy-static', 'watch']);
+gulp.task('default', ['bundle-css', 'bundle-js', 'bundle-html', 'copy-static', 'copy-jekyll', 'watch']);
