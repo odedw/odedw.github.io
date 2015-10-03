@@ -23,4 +23,4 @@ version:          2.0.0
 github:
   repo:           https://github.com/poole/lanyon
 
-exclude: [node_modules, styles, gulpfile.js, package.json]
+exclude: [node_modules, styles, scripts, gulpfile.js, package.json]
