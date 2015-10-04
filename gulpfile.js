@@ -23,7 +23,7 @@ gulp.task('bundle-css', ['less'], function() {
 ])
    .pipe(concat('styles.min.css'))
    .pipe(minifyCss())
-   .pipe(gulp.dest('build/public/css'));
+   .pipe(gulp.dest('public/css'));
 });
 
 var scriptSources = 'scripts/*.js';
@@ -31,26 +31,21 @@ gulp.task('bundle-js', function() {
   return gulp.src(scriptSources)
     .pipe(concat('app.min.js'))
     .pipe(uglify())
-    .pipe(gulp.dest('build/public/js'));
+    .pipe(gulp.dest('public/js'));
 });
 
 var staticContent = ['static/**'];
-var jekyllContent = ['_data/*'];
-var htmlSources = ['*.html', '**/*.html','!node_modules/**','!_site/**', '!build/**'];
-var otherFiles = ['favicon.ico'];
+// var jekyllContent = ['_data/*'];
+// var htmlSources = ['*.html', '**/*.html','!node_modules/**','!_site/**', '!build/**'];
+// var otherFiles = ['favicon.ico'];
 gulp.task('copy-static', function() {
-  return es.merge(
-    gulp.src(staticContent).pipe(gulp.dest('build/public')),
-    gulp.src(jekyllContent).pipe(gulp.dest('build/_data')),
-    gulp.src(htmlSources).pipe(gulp.dest('build')),
-    gulp.src(otherFiles).pipe(gulp.dest('build'))
-  );
+    return gulp.src(staticContent).pipe(gulp.dest('public'));
 });
 
 gulp.task('watch', function () {
    gulp.watch(lessSources, ['bundle-css']);
    gulp.watch(scriptSources, ['bundle-js']);
-   gulp.watch(staticContent.concat(jekyllContent).concat(htmlSources).concat(otherFiles), ['copy-static']);
+   gulp.watch(staticContent, ['copy-static']);
 });
 
 gulp.task('default', ['bundle-css', 'bundle-js', 'copy-static', 'watch']);

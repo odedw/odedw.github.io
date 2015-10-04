@@ -24,5 +24,4 @@ github:
   repo:           https://github.com/poole/lanyon
 
 #paths
-source : build
 exclude: [node_modules, styles, scripts, gulpfile.js, package.json]

@@ -1,7 +1,0 @@
-{% include analytics.html %}
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  var title = document.title.indexOf('·') > 0 ? document.title.substr(0,document.title.indexOf('·') - 1) : 'Home';
-  mixpanel.track('Page View - ' + title);
-});
-</script>
