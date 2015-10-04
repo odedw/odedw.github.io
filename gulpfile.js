@@ -5,6 +5,7 @@ var watch = require('gulp-watch');
 var concat = require('gulp-concat');
 var minifyCss = require('gulp-minify-css');
 var uglify = require('gulp-uglify');
+var es = require('event-stream');
 
 var lessSources = 'styles/less/*.less';
 gulp.task('less', function () {
@@ -33,30 +34,23 @@ gulp.task('bundle-js', function() {
     .pipe(gulp.dest('build/public/js'));
 });
 
-var htmlSources = ['*.html', '**/*.html','!node_modules/**','!_site/**', '!build/**', 'favicon.ico'];
-gulp.task('bundle-html', function() {
-  return gulp.src(htmlSources)
-    .pipe(gulp.dest('build'));
-});
-
 var staticContent = ['static/**'];
-gulp.task('copy-static', function() {
-  return gulp.src(staticContent)
-    .pipe(gulp.dest('build/public'));
-});
-
 var jekyllContent = ['_data/*'];
-gulp.task('copy-jekyll', function() {
-  return gulp.src(jekyllContent)
-    .pipe(gulp.dest('build/_data'));
+var htmlSources = ['*.html', '**/*.html','!node_modules/**','!_site/**', '!build/**'];
+var otherFiles = ['favicon.ico'];
+gulp.task('copy-static', function() {
+  return es.merge(
+    gulp.src(staticContent).pipe(gulp.dest('build/public')),
+    gulp.src(jekyllContent).pipe(gulp.dest('build/_data')),
+    gulp.src(htmlSources).pipe(gulp.dest('build')),
+    gulp.src(otherFiles).pipe(gulp.dest('build'))
+  );
 });
 
 gulp.task('watch', function () {
    gulp.watch(lessSources, ['bundle-css']);
    gulp.watch(scriptSources, ['bundle-js']);
-   gulp.watch(htmlSources, ['bundle-html']);
-   gulp.watch(staticContent, ['copy-static']);
-   gulp.watch(jekyllContent, ['copy-jekyll']);
+   gulp.watch(staticContent.concat(jekyllContent).concat(htmlSources).concat(otherFiles), ['copy-static']);
 });
 
-gulp.task('default', ['bundle-css', 'bundle-js', 'bundle-html', 'copy-static', 'copy-jekyll', 'watch']);
+gulp.task('default', ['bundle-css', 'bundle-js', 'copy-static', 'watch']);
