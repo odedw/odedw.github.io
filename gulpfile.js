@@ -6,6 +6,24 @@ var concat = require('gulp-concat');
 var minifyCss = require('gulp-minify-css');
 var uglify = require('gulp-uglify');
 var es = require('event-stream');
+var browserSync = require('browser-sync').create();
+
+// Static server
+gulp.task('browser-sync', ['refresh-css'], function() {
+    browserSync.init({
+        server: {
+            baseDir: "./_site"
+        }
+      });
+
+        // gulp.watch("_site/**/*.html").on('change', browserSync.reload);
+        gulp.watch("_site/public/**/*.css", ['refresh-css']);
+});
+
+gulp.task('refresh-css', function() {
+    return gulp.src("_site/public/**/*.css")
+        .pipe(browserSync.stream());
+});
 
 var lessSources = 'styles/less/*.less';
 gulp.task('less', function () {
@@ -48,4 +66,4 @@ gulp.task('watch', function () {
    gulp.watch(staticContent, ['copy-static']);
 });
 
-gulp.task('default', ['bundle-css', 'bundle-js', 'copy-static', 'watch']);
+gulp.task('default', ['bundle-css', 'bundle-js', 'copy-static', 'browser-sync', 'watch']);
