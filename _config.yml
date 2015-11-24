@@ -3,8 +3,7 @@ markdown:         redcarpet
 highlighter:      pygments
 
 # Permalinks
-permalink:        pretty
-
+permalink:        /blog/:title/
 # Setup
 title:            Oded Welgreen
 tagline:          'A Jekyll theme'
