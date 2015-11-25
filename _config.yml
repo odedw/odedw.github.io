@@ -24,3 +24,5 @@ github:
 
 #paths
 exclude: [node_modules, styles, scripts, gulpfile.js, package.json]
+
+words_per_minute: 200
