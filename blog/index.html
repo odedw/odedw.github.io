@@ -11,7 +11,10 @@ title: Blog
         {{ post.title }}
       </a>
     </h1>
-    <span class="post-date">{{ post.date | date_to_string }} • {% include read-time.html %}</span>
+    <span class="post-date">{{ post.date | date_to_string }} •
+      {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
+      {% if readtime <= 1 %}1 min{% else %}{{ readtime }} min{% endif %} read
+    </span>
 
     <span>
     </span>
