@@ -148,7 +148,12 @@ abbr[title] {
 code,
 pre {
   font-family: 'Droid Sans Mono', "Courier New", monospace;
-  color:#ffa1aa;
+  background-color: #454545;
+  color: #ccc;
+  font-size: 14px;
+  text-shadow: none;
+  padding: 2px 5px;
+  border-radius: 5px;
 }
 pre {
   display: block;
