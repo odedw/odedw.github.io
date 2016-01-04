@@ -14,6 +14,9 @@ title: Blog
     <span class="post-date">{{ post.date | date_to_string }} •
       {% assign readtime = post.content | strip_html | number_of_words | divided_by:site.words_per_minute %}
       {% if readtime <= 1 %}1 min{% else %}{{ readtime }} min{% endif %} read
+      {% if post.github %}
+      • <a href="{{post.github}}">Github</a>
+      {% endif %}
     </span>
 
     <span>
