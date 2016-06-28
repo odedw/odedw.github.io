@@ -798,3 +798,13 @@ pre code {
   color: #3677a9;
 }
 /* Literal.Number.Integer.Long */
+.responsive-image {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+@media (min-width: 841px) {
+  .responsive-image {
+    width: 75%;
+  }
+}
