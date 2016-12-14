@@ -1,5 +1,13 @@
--   name: Map of Thedas
-    image: /images/caseit.gif
+-   name: TempoGDX
+    repo: https://github.com/odedw/TempoGDX
+    link: https://play.google.com/store/apps/details?id=com.inja.tempogdx
+    gfycat: WhisperedHoarseIberianmole
+    music: 
+    video:
+    description: An open source metronome app built with libGDX.
+    cta: use it
+
+-   name: Map of Thedas    
     repo: https://github.com/odedw/world-of-thedas
     link: http://thedas.odedwelgreen.com
     gfycat: ContentHugeIvorybilledwoodpecker
