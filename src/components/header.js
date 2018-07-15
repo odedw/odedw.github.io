@@ -1,33 +1,27 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import styled from 'styled-components'
+import ResponsiveContainer from './ResponsiveContainer'
+
+const Container = styled.div`
+    border-bottom: 1px solid #eee;
+        padding-top: 1rem;
+    padding-bottom: 1rem;
+    a:hover {
+    color: #fff;
+    }
+`
+
+const Title = styled.h1`font-size:1.2rem;`
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </div>
+  <Container>
+    <ResponsiveContainer>
+      <Title style={{ margin: 0 }}>
+        <Link to="/">Oded Welgreen</Link>
+      </Title>
+    </ResponsiveContainer>
+  </Container>
 )
 
 export default Header
