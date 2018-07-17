@@ -1,27 +1,60 @@
-import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
-import ResponsiveContainer from './ResponsiveContainer'
+import React from 'react';
+import Link from 'gatsby-link';
+import styled from 'styled-components';
+import ResponsiveContainer from './ResponsiveContainer';
 
-const Container = styled.div`
-    border-bottom: 1px solid #eee;
-        padding-top: 1rem;
+const Container = ResponsiveContainer.extend`
+    padding-top: 1rem;
     padding-bottom: 1rem;
     a:hover {
-    color: #fff;
+        color: #fff;
     }
-`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justfiy-content: flex-start;
+`;
 
-const Title = styled.h1`font-size:1.2rem;`
+const Title = styled.h1`
+    font-size: 1.3rem;
+    margin: 0 1rem 0 0;
+`;
 
-const Header = ({ siteTitle }) => (
-  <Container>
-    <ResponsiveContainer>
-      <Title style={{ margin: 0 }}>
-        <Link to="/">Oded Welgreen</Link>
-      </Title>
-    </ResponsiveContainer>
-  </Container>
-)
+const Separator = styled.small`
+    margin: 0 0.3rem;
+    color: #bbb;
+`;
 
-export default Header
+const SocialLinkContainer = styled.div`
+    color: #bbb;
+    margin-right: 0.5rem;
+    font-size: 1.4rem;
+`;
+const Spacer = styled.div`margin: auto;`;
+const Header = ({ links, socialLinks }) => {
+    return (
+        <Container>
+            <Title>
+                <Link to="/">Oded Welgreen</Link>
+            </Title>
+            {links.map((l) => (
+                <div>
+                    <Link to={l.href}>
+                        <small>{l.name}</small>
+                    </Link>
+                    {links.indexOf(l) < links.length - 1 ? <Separator>•</Separator> : ''}
+                </div>
+            ))}
+            <Spacer />
+            {socialLinks.map((l) => (
+                <SocialLinkContainer>
+                    <a href={l.href}>
+                        <span className={`social icon-${l.name}`} />
+                    </a>
+                </SocialLinkContainer>
+            ))}
+        </Container>
+    );
+};
+
+export default Header;
