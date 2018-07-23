@@ -4,8 +4,11 @@ import styled from 'styled-components';
 import ResponsiveContainer from './ResponsiveContainer';
 
 const Container = ResponsiveContainer.extend`
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    a {
+        color: #bbb;
+    }
     a:hover {
         color: #fff;
     }
@@ -15,10 +18,7 @@ const Container = ResponsiveContainer.extend`
     justfiy-content: flex-start;
 `;
 
-const Title = styled.h1`
-    font-size: 1.3rem;
-    margin: 0 1rem 0 0;
-`;
+const Title = styled.h1`margin: 0 1rem 0 0;`;
 
 const Separator = styled.small`
     margin: 0 0.3rem;
@@ -40,7 +40,7 @@ const Header = ({ links, socialLinks }) => {
             {links.map((l) => (
                 <div>
                     <Link to={l.href}>
-                        <small>{l.name}</small>
+                        <span>{l.name}</span>
                     </Link>
                     {links.indexOf(l) < links.length - 1 ? <Separator>•</Separator> : ''}
                 </div>
