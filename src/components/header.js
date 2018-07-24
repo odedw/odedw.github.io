@@ -38,7 +38,7 @@ const Header = ({ links, socialLinks }) => {
                 <Link to="/">Oded Welgreen</Link>
             </Title>
             {links.map((l) => (
-                <div>
+                <div key={l.name}>
                     <Link to={l.href}>
                         <span>{l.name}</span>
                     </Link>
@@ -47,7 +47,7 @@ const Header = ({ links, socialLinks }) => {
             ))}
             <Spacer />
             {socialLinks.map((l) => (
-                <SocialLinkContainer>
+                <SocialLinkContainer key={l.name}>
                     <a href={l.href}>
                         <span className={`social icon-${l.name}`} />
                     </a>
