@@ -1,0 +1,57 @@
+[
+    {
+        "name": "Cellular Automata Playground",
+        "repo": "https://github.com/odedw/cellular-automata-playground",
+        "link": "https://bit.ly/cellular-automata",
+        "gfycat": "DefiantSpitefulGalapagosdove",
+        "video": "https://www.youtube.com/watch?v=ICpImf7Y3pc",
+        "shortDesc": "A tool to explore life-like cellular automata."
+    },
+    {
+        "name": "TempoGDX",
+        "repo": " https://github.com/odedw/TempoGDX",
+        "link": " https://play.google.com/store/apps/details?id=com.inja.tempogdx",
+        "gfycat": "WhisperedHoarseIberianmole",
+        "shortDesc": " An open source metronome app built with libGDX."
+    },
+    {
+        "name": "Map of Thedas",
+        "repo": " https://github.com/odedw/world-of-thedas",
+        "link": " http://thedas.odedwelgreen.com",
+        "gfycat": " ContentHugeIvorybilledwoodpecker",
+        "shortDesc": " A searchable map of Thedas - the Dragon Age world."
+    },
+    {
+        "name": "Karcero",
+        "image": "/images/caseit.gif",
+        "repo": " https://github.com/odedw/karcero",
+        "link": " http://www.odedwelgreen.com/karcero",
+        "gfycat": "BelovedWellgroomedEidolonhelvum",
+        "shortDesc": " A procedural dungeon tile based map generator."
+    },
+    {
+        "name": "Game of Music",
+        "gfycat": "CalmCornyFinnishspitz",
+        "repo": "https://github.com/odedw/game-of-music",
+        "link": "http://gameofmusic.odedwelgreen.com",
+        "video": "https://www.youtube.com/watch?v=bYbnqDYHiHg",
+        "shortDesc": " Game of Music is a music sequencer that uses Conway's Game of Life's rules to generate each state. Build and share a link directly to your track."
+    },
+    {
+        "name": "Super Fantasy Queue",
+        "image": "/images/sfq.gif",
+        "gfycat": "AlertEagerCrocodile",
+        "repo": "https://github.com/odedw/super-fantasy-queue",
+        "link": "http://sfq.odedwelgreen.com",
+        "music": "https://soundcloud.com/injagames/sets/super-fantasy-queue",
+        "shortDesc": "Made for Github's 2013 game off jam, Super Fantasy Queue is a short game about the most important decision a hero could make - which line to stand in."
+    },
+    {
+        "name": "caseIt",
+        "image": "/images/caseit.gif",
+        "repo": "https://github.com/odedw/caseit",
+        "link": "http://caseit.odedwelgreen.com",
+        "gfycat": " WeeklyScornfulArgentinehornedfrog",
+        "shortDesc": "A simple web tool for text transformations designed to work with keyboard shortcuts."
+    }
+]
