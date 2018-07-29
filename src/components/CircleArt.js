@@ -58,7 +58,7 @@ function init() {
 
     stage.addChild(square, circleContainer, trace);
 
-    listener = createjs.Ticker.on('tick', tick);
+    listener = createjs.Ticker.addEventListener('tick', tick);
     createjs.Ticker.setFPS(60);
 
     nextAnimationSegment();
@@ -95,7 +95,7 @@ function nextAnimationSegment() {
         )
         .call(function() {
             if (circleContainer.rotation < limit) {
-                createjs.Ticker.off('tick', listener);
+                createjs.Ticker.removeAllEventListeners();
                 init();
                 return;
             }
@@ -110,7 +110,7 @@ function tick(event) {
 }
 
 function stop() {
-    createjs.Ticker.off('tick', listener);
+    createjs.Ticker.removeAllEventListeners();
 }
 
 function calcPenLocation() {

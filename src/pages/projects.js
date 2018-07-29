@@ -16,7 +16,7 @@ class ProjectsPage extends React.Component {
             <Container>
                 <ul>
                     {data.allCodepensJson.edges.map((obj) => obj.node).map((codepen) => (
-                        <CodepenContainer>
+                        <CodepenContainer key={codepen.hash}>
                             <h3>{codepen.name}</h3>
                             <p
                                 data-height="329"
