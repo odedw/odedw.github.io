@@ -1,9 +1,10 @@
 import * as React from "react";
+import Page from "../components/PageLayout";
 
 const Index = () => (
-  <div>
+  <Page>
     <p>Index</p>
-  </div>
+  </Page>
 );
 
 export default Index;

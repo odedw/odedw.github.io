@@ -1,10 +1,10 @@
 import * as React from "react";
 import Page from "../components/PageLayout";
 
-const Music = () => (
+const Contact = () => (
   <Page>
-    <p>Music</p>
+    <p>Contact</p>
   </Page>
 );
 
-export default Music;
+export default Contact;

@@ -1,9 +1,10 @@
 import * as React from "react";
+import Page from "../components/PageLayout";
 
 const Projects = () => (
-  <div>
+  <Page>
     <p>Projects</p>
-  </div>
+  </Page>
 );
 
 export default Projects;

@@ -3,7 +3,8 @@ module.exports = {
     return {
       "/": { page: "/" },
       "/projects": { page: "/projects" },
-      "/music": { page: "/music" }
+      "/music": { page: "/music" },
+      "/contact": { page: "/contact" }
     };
   }
 };
