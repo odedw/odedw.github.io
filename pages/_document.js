@@ -23,13 +23,17 @@ export default class MyDocument extends Document {
     return (
       <html>
         <Head>
-          <title>Oded Welgreen</title>
           {/* Step 5: Output the styles in the head  */}
           {this.props.styleTags}
           <link
             rel="stylesheet"
             href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh"
           />
+          <link
+            href="https://fonts.googleapis.com/css?family=Lato|Vollkorn&display=swap"
+            rel="stylesheet"
+          />
+
           <link rel="stylesheet" href="/styles.css" />
         </Head>
         <body>

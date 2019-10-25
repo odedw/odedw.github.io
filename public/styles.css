@@ -42,3 +42,26 @@
 .icon-linkedin:before {
   content: "\e606";
 }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background: #efeeee;
+  color: #4b4640;
+  font-family: "Lato";
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4b4640;
+}
+
+a:hover {
+  color: #458c9a;
+  transition: all 0.3s;
+}
