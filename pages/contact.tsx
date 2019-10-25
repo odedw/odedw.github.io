@@ -2,7 +2,7 @@ import * as React from "react";
 import Page from "../components/PageLayout";
 
 const Contact = () => (
-  <Page>
+  <Page title="Contact">
     <p>Contact</p>
   </Page>
 );
