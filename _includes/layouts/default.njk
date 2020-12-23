@@ -6,8 +6,10 @@ siteTitle: Oded Welgreen
   {% include "../components/head.njk" %}
   <body class="bg-my-gray text-gray-400 min-h-screen flex flex-col">
     {% include "../components/nav.njk" %}
-    <div class="container flex-1">
-      {{ content | safe }}
+    <div class="px-4 flex-1">
+      <div class="container mx-auto">
+        {{ content | safe }}
+      </div>
     </div>
     {% include "../components/footer.njk" %}
     {% include "../components/scripts.njk" %}
