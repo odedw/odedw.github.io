@@ -21,8 +21,8 @@
     <!-- Icons -->
     
 </head>
-  <body class="bg-my-gray text-gray-400">
-    <div class="nav-container p-4 border-b border-gray-300 border-solid">
+  <body class="bg-my-gray text-gray-400 min-h-screen flex flex-col">
+    <div class="nav-container p-4 border-b border-gray-300 border-solid flex-shrink-0">
     <div class="container flex flex-row mx-auto justify-between flex-wrap">
 
         <a href="/" title="Home" class="text-gray-400 mx-auto">
@@ -42,9 +42,11 @@
         
     </div>
 </div>
-    <h1>Music</h1>
+    <div class="container flex-1">
+      <h1>Music</h1>
 
-    <footer id="footer">
+    </div>
+    <footer id="footer" class="border-t border-gray-300 border-solid text-xs flex-shrink-0 flex justify-end p-2">
   <span>Built with <a href="https://www.11ty.dev/">Eleventy</a> + <a href="https://tailwindcss.com/">Tailwind</a> & hosted on
     <a href="http://pages.github.com">GitHub Pages</a>
   </span
