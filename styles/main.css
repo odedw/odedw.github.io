@@ -5,3 +5,24 @@
 body {
   /* font-family: "Montserrat", sans-serif; */
 }
+
+.bg-my-gray {
+  background-color: #282828;
+}
+
+a {
+  @apply text-gray-300;
+  transition: all 0.3s;
+  color: #4cb4e8;
+}
+
+.nav-container a {
+  @apply text-gray-400;
+}
+
+.nav-container a:hover {
+  color: #d4edf9;
+}
+a:hover {
+  color: #d4edf9;
+}

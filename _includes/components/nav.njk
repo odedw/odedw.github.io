@@ -1,15 +1,17 @@
-<div class="masthead">
-    <div class="container">
-        <h1 class="masthead-title">
-            <a href="/" title="Home">{{ siteTitle }}</a>
-        </h1>
-        <nav>
+<div class="nav-container p-4 border-b border-gray-300 border-solid">
+    <div class="container flex flex-row mx-auto justify-between flex-wrap">
+
+        <a href="/" title="Home" class="text-gray-400 mx-auto">
+            <h1 class="masthead-title text-2xl align-middle" >{{ siteTitle }}</h1>
+        </a>
+
+        <nav class="items-center flex justify-self-end mx-auto">
             <a href="/projects" title="Projects">projects</a>
-            <span>•</span>
+            <span class="px-1">•</span>
             <a href="/music" title="Music">music</a>
-            <span>•</span>
+            <span class="px-1">•</span>
             <a href="/art" title="Art">art</a>
-            <span>•</span>
+            <span class="px-1">•</span>
             <a href="/" title="About">about</a>
 
         </nav>
