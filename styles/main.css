@@ -47,6 +47,9 @@ a:hover {
   align-items: center;
 }
 
+.nav-items {
+  margin-top: 0.3rem;
+}
 #social-icons {
   margin-top: 0.5rem;
 }
@@ -56,8 +59,13 @@ a:hover {
     flex-direction: row;
   }
 
+  .nav-items,
   #social-icons {
     margin-top: 0rem;
+  }
+
+  #social-icons {
+    margin-left: 1rem;
   }
 }
 
