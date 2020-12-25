@@ -5,6 +5,7 @@ module.exports = function (eleventyConfig) {
       input: "pages",
       output: "dist",
       includes: "../_includes",
+      data: "../_data",
     },
   };
 };

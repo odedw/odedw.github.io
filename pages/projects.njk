@@ -1,0 +1,24 @@
+---
+layout: layouts/default.njk
+title: Projects
+---
+<ul class="flex justify-around flex-wrap">
+    {% for project in projects %}
+        <li class="w-52 px-2 mb-10 flex-shrink-0">
+            <a href={{ project.url }} target="_blank"><img alt="{{ project.name }}" src={{project.image}} class="w-full h-32  border-solid border-2 border-gray-400"/></a>
+            <a target="_blank" href={{ project.url }} class="font-serif">{{ project.name }}</a>
+            <div class="flex text-xs">
+                <a href={{ project.code }} target="_blank">code</a>
+                {% if project.video %}
+                    <span class="mx-1">•</span>
+                    <a href={{ project.video }} target="_blank">video</a>
+                {% endif %}
+                {% if project.music %}
+                    <span class="mx-1">•</span>
+                    <a href={{ project.music }} target="_blank">music</a>
+                {% endif %}
+            </div>
+            <div class="text-sm mt-2" >{{ project.description}}</div>
+        </li>
+    {% endfor %}
+</ul>

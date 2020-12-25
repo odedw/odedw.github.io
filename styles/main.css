@@ -60,3 +60,10 @@ a:hover {
     margin-top: 0rem;
   }
 }
+
+h1 {
+  @apply font-serif;
+}
+
+.project-list {
+}
