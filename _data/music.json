@@ -1,0 +1,34 @@
+[
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/FiU0t6u6bjk"
+  },
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/r8w_whE5o0s"
+  },
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/ThV0coBLJN4"
+  },
+  {
+    "type": "bandcamp",
+    "album": "2131887684",
+    "url": "https://ishim.bandcamp.com/album/new-things",
+    "name": "New Things by ISHIM"
+  },
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/Z9d-GqC2EJA"
+  },
+  {
+    "type": "bandcamp",
+    "album": "1259962768",
+    "url": "https://amitaylev.bandcamp.com/album/here-i-am",
+    "name": "Here I am by Amitay Lev"
+  },
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/b8auobq7r18"
+  }
+]
