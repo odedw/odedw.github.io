@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Projects",
+    "link": "/projects",
+    "image": "/images/karcero.gif"
+  },
+  {
+    "name": "Music",
+    "link": "/music",
+    "image": "/images/music.png"
+  },
+  {
+    "name": "Art",
+    "link": "/art",
+    "image": "/images/cellular_automata_playground.gif"
+  },
+  {
+    "name": "About",
+    "link": "/about",
+    "image": "/images/me.png"
+  }
+]

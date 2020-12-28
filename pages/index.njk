@@ -4,18 +4,15 @@ layout: layouts/default.njk
 
 <div class="pb-6">
     <img class="mx-auto relative object-cover w-36 h-36 border-2 border-white rounded-full" src="/images/profile.jpeg" alt="Profile image"/>
-    <h1 class="text-3xl font-serif">Hi! My name is Oded.</h1>
-    <p class="mt-6">
-        <span class="text-gray-100 text-xl font-text">I am a </span>
-        <span>father, a partner, a software engineer, a musician and an artist. I like to create things that make the world better.
-        Currently I am a tech lead, full-stack engineer and engineering manager at <a href="https://www.asurion.com/" target="_blank">Asurion</a>. I enjoy building products that provide value to our users, working in a team, helping others around me grow and growing myself as an engineer and a mentor.</span>
-    </p>
-    <p class="mt-6">
-        <span class="text-gray-100 text-xl font-text">I am interested in </span>
-        <span>solving hard problems, <a href="/music">making music</a>, modular synthesizers, <a href="https://www.instagram.com/p/CCNHPQ6AVbA/" target="_blank">proceduraly generated art</a>, astronomy and many more things. In short, I am eternally curious.</span>
-    </p>
-    <p class="mt-6">
-        <span class="text-gray-100 text-xl font-text">I am good at </span>
-        <span>learning new things and finding the right tool for the job. I have worked with a lot of different technologies over the years and always enjoy learning a new one. Today I mainly work with Typescript & AWS. I have in experience in design and development of scalable cloud services as well as web and mobile applications. I am passionate about user experience & Lean methodology. There has never been a better time for creation and creativity - we can deploy a site, scale to multiple instances, easliy spin up a VM or do many other things that used to take days, in a matter of minutes and at very low or zero cost. All of these are no longer <a href="https://www.hanselman.com/blog/we-are-abstracting-on-the-shoulders-of-giants" target="_blank">obstacles</a> on our creative path.</span>
-    </p>
+    <h1 class="text-3xl font-serif text-center mt-4">Software Engineer • Music Maker • Artist</h1>
+    <div class="flex justify-evenly flex-wrap mt-10 nav-container">
+        {% for item in nav %}
+            <a href="{{item.link}}" >
+                <div class="w-40 px-2 mb-5">
+                    <img src="{{ item.image }}" alt=""/>
+                    <div class="text-xl text-center mt-2">{{item.name}}</div>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
 </div>
