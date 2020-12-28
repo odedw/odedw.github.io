@@ -1,0 +1,37 @@
+[
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/p3mymCWzhV8",
+    "description": "A visualization and audibilization (conversion of data to sound) of different maze generation algorithms."
+  },
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/ICpImf7Y3pc",
+    "description": "An exploration of cellular automata with various rules. Number of living neighbours visualized by color. I also wrote and recorded the music for this video."
+  },
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/bYbnqDYHiHg",
+    "description": "A demo of my \"Game of Music\" project, a music sequencer based on Conway's Game of Life."
+  },
+  {
+    "type": "instagram",
+    "id": "CCNHPQ6AVbA"
+  },
+  {
+    "type": "instagram",
+    "id": "CEIt76GAOKN"
+  },
+  {
+    "type": "codepen",
+    "id": "lncpk"
+  },
+  {
+    "type": "codepen",
+    "id": "wKGdo"
+  },
+  {
+    "type": "codepen",
+    "id": "dAmbo"
+  }
+]

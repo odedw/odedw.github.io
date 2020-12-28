@@ -2,7 +2,7 @@
 layout: layouts/default.njk
 title: Projects
 ---
-<ul class="flex justify-around flex-wrap">
+<ul class="flex justify-around flex-wrap mt-6">
     {% for project in projects %}
         <li class="w-52 px-2 mb-10 flex-shrink-0">
             <a href={{ project.url }} target="_blank"><img alt="{{ project.name }}" src={{project.image}} class="w-full h-32  border-solid border-2 border-gray-400"/></a>
