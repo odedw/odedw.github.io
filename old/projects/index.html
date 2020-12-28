@@ -7,7 +7,7 @@ title: Projects
     {% for project in site.data.projects %}
     <li>
       <div class="project">
-        <a href="{{ project.link }}" target="_blank">
+        <a href="{{ project.link }}" target="_blank" rel="noopener">
           <div class="project-image transition-ease">
             <img class="gfyitem transition-ease" data-id="{{ project.gfycat }}" data-dot="false" data-controls="false"/>
             <div class="overlay transition-ease">
@@ -17,14 +17,14 @@ title: Projects
         </a>
         <h3 class="project-title"><a href="{{ project.link }}">{{ project.name }}</a></h3>
         <div class="project-links">
-          <a href="{{ project.repo }}" title="Projects" target="_blank">github</a>
+          <a href="{{ project.repo }}" title="Projects" target="_blank" rel="noopener">github</a>
           {% if project.music != "" and project.music != nil %}
           <span>•</span>
-          <a href="{{ project.music }}" title="Music" target="_blank">music</a>
+          <a href="{{ project.music }}" title="Music" target="_blank" rel="noopener">music</a>
           {% endif %}
           {% if project.video != "" and project.video != nil %}
           <span>•</span>
-          <a href="{{ project.video }}" title="Video" target="_blank">video</a>
+          <a href="{{ project.video }}" title="Video" target="_blank" rel="noopener">video</a>
           {% endif %}
 
         </div>
