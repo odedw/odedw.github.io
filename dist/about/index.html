@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <!-- Enable responsiveness on mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
     <meta name="description" content="Full stack developer, musician and artist">
     <title>
         About &middot; Oded Welgreen
@@ -29,8 +29,8 @@
     <div class="nav-container p-4 border-b border-gray-300 border-solid flex-shrink-0">
     <div class="nav-inner-container container flex mx-auto flex-wrap">
 
-        <a href="/" title="Home" class="flex-shrink-0">
-            <h1 class="masthead-title text-2xl align-middle" >Oded Welgreen</h1>
+        <a href="/" title="Home" class="flex-shrink-0" >
+            <header class="masthead-title text-2xl align-middle font-serif" role="banner">Oded Welgreen</header>
         </a>
         <div id="social-icons" class="flex items-center flex-shrink-0 ml-2">
             <a href="https://github.com/odedw" target="_blank" title="Github">
@@ -47,19 +47,19 @@
             </a>
         </div>
         <div class="flex-1"></div>
-        <nav class="nav-items items-center flex justify-self-end flex-shrink-0">
-            <a href="/projects" title="Projects">projects</a>
+        <nav class="nav-items items-center flex justify-self-end flex-shrink-0" role="navigation">
+            <a href="/projects" >projects</a>
             <span class="px-1">•</span>
-            <a href="/music" title="Music">music</a>
+            <a href="/music" >music</a>
             <span class="px-1">•</span>
-            <a href="/art" title="Art">art</a>
+            <a href="/art" >art</a>
             <span class="px-1">•</span>
-            <a href="/about" title="About">about</a>
+            <a href="/about">about</a>
         </nav>
     </div>
 </div>
     <div class="p-4 flex-1">
-      <div class="container mx-auto">
+      <main class="container mx-auto" role="main">
         
 <div class="pb-6">
     <img class="mx-auto relative object-cover w-36 h-36 border-2 border-white rounded-full" src="/images/profile.jpeg" alt="Profile image"/>
@@ -78,9 +78,9 @@
         <span>learning new things and finding the right tool for the job. I have worked with a lot of different technologies over the years and always enjoy learning a new one. Today I mainly work with Typescript & AWS. I have experience in design and development of scalable cloud services as well as web and mobile applications. I am passionate about user experience & Lean methodology. There has never been a better time for creation and creativity - we can deploy a site, scale to multiple instances, easliy spin up a VM or do many other things that used to take days, in a matter of minutes and at very low or zero cost. All of these are no longer <a href="https://www.hanselman.com/blog/we-are-abstracting-on-the-shoulders-of-giants" target="_blank">obstacles</a> on our creative path.</span>
     </p>
 </div>
-      </div>
+      </main>
     </div>
-    <footer id="footer" class="border-t border-gray-300 border-solid text-xs flex-shrink-0 flex justify-end p-2">
+    <footer role="contentinfo" id="footer" class="border-t border-gray-300 border-solid text-xs flex-shrink-0 flex justify-end p-2">
   <span>Built with <a href="https://www.11ty.dev/">Eleventy</a> + <a href="https://tailwindcss.com/">Tailwind</a> & hosted on
     <a href="http://pages.github.com">GitHub Pages</a>
   </span

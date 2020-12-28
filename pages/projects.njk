@@ -2,23 +2,28 @@
 layout: layouts/default.njk
 title: Projects
 ---
-<ul class="flex justify-around flex-wrap mt-6">
-    {% for project in projects %}
-        <li class="w-52 px-2 mb-10 flex-shrink-0">
-            <a href={{ project.url }} target="_blank"><img alt="{{ project.name }}" src={{project.image}} class="w-full h-32  border-solid border-2 border-gray-400"/></a>
-            <a target="_blank" href={{ project.url }} class="font-serif">{{ project.name }}</a>
-            <div class="flex text-xs">
-                <a href={{ project.code }} target="_blank">code</a>
-                {% if project.video %}
-                    <span class="mx-1">•</span>
-                    <a href={{ project.video }} target="_blank">video</a>
-                {% endif %}
-                {% if project.music %}
-                    <span class="mx-1">•</span>
-                    <a href={{ project.music }} target="_blank">music</a>
-                {% endif %}
-            </div>
-            <div class="text-sm mt-2" >{{ project.description}}</div>
-        </li>
-    {% endfor %}
-</ul>
+<div>
+    <div class="mb-10" aria-level="1" role="heading">
+    When I want to learn a concept I try to do it while building something using that concept. It helps me understand it better as it is easier to explore it by actually using it. My projects for the most part either have a well-defined goal, or are explorations guided by curiosity.
+    </div>
+    <ul class="flex justify-around flex-wrap mt-6">
+        {% for project in projects %}
+            <li class="w-52 px-2 mb-10 flex-shrink-0">
+                <a href={{ project.url }} target="_blank"><img alt="{{ project.name }}" src={{project.image}} class="w-full h-32  border-solid border-2 border-gray-400"/></a>
+                <a target="_blank" href={{ project.url }} class="font-serif">{{ project.name }}</a>
+                <div class="flex text-xs">
+                    <a href={{ project.code }} target="_blank" aria-label="Browse the source code for {{project.name}}">code</a>
+                    {% if project.video %}
+                        <span class="mx-1">•</span>
+                        <a href={{ project.video }} target="_blank" aria-label="Watch a demo video of {{project.name}}">video</a>
+                    {% endif %}
+                    {% if project.music %}
+                        <span class="mx-1">•</span>
+                        <a href={{ project.music }} target="_blank">soundtrack</a>
+                    {% endif %}
+                </div>
+                <div class="text-sm mt-2" >{{ project.description}}</div>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

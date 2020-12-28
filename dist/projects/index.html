@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
     <!-- Enable responsiveness on mobile devices-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
     <meta name="description" content="Full stack developer, musician and artist">
     <title>
         Projects &middot; Oded Welgreen
@@ -29,8 +29,8 @@
     <div class="nav-container p-4 border-b border-gray-300 border-solid flex-shrink-0">
     <div class="nav-inner-container container flex mx-auto flex-wrap">
 
-        <a href="/" title="Home" class="flex-shrink-0">
-            <h1 class="masthead-title text-2xl align-middle" >Oded Welgreen</h1>
+        <a href="/" title="Home" class="flex-shrink-0" >
+            <header class="masthead-title text-2xl align-middle font-serif" role="banner">Oded Welgreen</header>
         </a>
         <div id="social-icons" class="flex items-center flex-shrink-0 ml-2">
             <a href="https://github.com/odedw" target="_blank" title="Github">
@@ -47,111 +47,116 @@
             </a>
         </div>
         <div class="flex-1"></div>
-        <nav class="nav-items items-center flex justify-self-end flex-shrink-0">
-            <a href="/projects" title="Projects">projects</a>
+        <nav class="nav-items items-center flex justify-self-end flex-shrink-0" role="navigation">
+            <a href="/projects" >projects</a>
             <span class="px-1">•</span>
-            <a href="/music" title="Music">music</a>
+            <a href="/music" >music</a>
             <span class="px-1">•</span>
-            <a href="/art" title="Art">art</a>
+            <a href="/art" >art</a>
             <span class="px-1">•</span>
-            <a href="/about" title="About">about</a>
+            <a href="/about">about</a>
         </nav>
     </div>
 </div>
     <div class="p-4 flex-1">
-      <div class="container mx-auto">
-        <ul class="flex justify-around flex-wrap mt-6">
-    
-        <li class="w-52 px-2 mb-10 flex-shrink-0">
-            <a href=https://bit.ly/cellular-automata target="_blank"><img alt="Cellular Automata Playground" src=/images/cellular_automata_playground.gif class="w-full h-32  border-solid border-2 border-gray-400"/></a>
-            <a target="_blank" href=https://bit.ly/cellular-automata class="font-serif">Cellular Automata Playground</a>
-            <div class="flex text-xs">
-                <a href=https://github.com/odedw/cellular-automata-playground target="_blank">code</a>
-                
-                    <span class="mx-1">•</span>
-                    <a href=https://www.youtube.com/watch?v=ICpImf7Y3pc target="_blank">video</a>
-                
-                
-            </div>
-            <div class="text-sm mt-2" >A tool to explore cellular automata with various rules.</div>
-        </li>
-    
-        <li class="w-52 px-2 mb-10 flex-shrink-0">
-            <a href=https://play.google.com/store/apps/details?id=com.inja.tempogdx target="_blank"><img alt="TempoGDX" src=/images/tempo_gdx.png class="w-full h-32  border-solid border-2 border-gray-400"/></a>
-            <a target="_blank" href=https://play.google.com/store/apps/details?id=com.inja.tempogdx class="font-serif">TempoGDX</a>
-            <div class="flex text-xs">
-                <a href=https://github.com/odedw/TempoGDX target="_blank">code</a>
-                
-                
-            </div>
-            <div class="text-sm mt-2" >An open source metronome app built with libGDX.</div>
-        </li>
-    
-        <li class="w-52 px-2 mb-10 flex-shrink-0">
-            <a href=http://thedas.odedwelgreen.com target="_blank"><img alt="Map of Thedas" src=/images/thedas.gif class="w-full h-32  border-solid border-2 border-gray-400"/></a>
-            <a target="_blank" href=http://thedas.odedwelgreen.com class="font-serif">Map of Thedas</a>
-            <div class="flex text-xs">
-                <a href=https://github.com/odedw/world-of-thedas target="_blank">code</a>
-                
-                
-            </div>
-            <div class="text-sm mt-2" >A searchable map of Thedas - the Dragon Age world.</div>
-        </li>
-    
-        <li class="w-52 px-2 mb-10 flex-shrink-0">
-            <a href=http://www.odedwelgreen.com/karcero target="_blank"><img alt="Karcero" src=/images/karcero.gif class="w-full h-32  border-solid border-2 border-gray-400"/></a>
-            <a target="_blank" href=http://www.odedwelgreen.com/karcero class="font-serif">Karcero</a>
-            <div class="flex text-xs">
-                <a href=https://github.com/odedw/karcero target="_blank">code</a>
-                
-                
-            </div>
-            <div class="text-sm mt-2" >A procedural dungeon tile based map generator.</div>
-        </li>
-    
-        <li class="w-52 px-2 mb-10 flex-shrink-0">
-            <a href=http://gameofmusic.odedwelgreen.com target="_blank"><img alt="Game of Music" src=/images/game_of_music.gif class="w-full h-32  border-solid border-2 border-gray-400"/></a>
-            <a target="_blank" href=http://gameofmusic.odedwelgreen.com class="font-serif">Game of Music</a>
-            <div class="flex text-xs">
-                <a href=https://github.com/odedw/game-of-music target="_blank">code</a>
-                
-                    <span class="mx-1">•</span>
-                    <a href=https://www.youtube.com/watch?v=bYbnqDYHiHg target="_blank">video</a>
-                
-                
-            </div>
-            <div class="text-sm mt-2" >A music sequencer that uses Conway&#39;s Game of Life&#39;s rules to generate each state. Build and share a url directly to your track.</div>
-        </li>
-    
-        <li class="w-52 px-2 mb-10 flex-shrink-0">
-            <a href=http://sfq.odedwelgreen.com target="_blank"><img alt="Super Fantasy Queue" src=/images/sfq.gif class="w-full h-32  border-solid border-2 border-gray-400"/></a>
-            <a target="_blank" href=http://sfq.odedwelgreen.com class="font-serif">Super Fantasy Queue</a>
-            <div class="flex text-xs">
-                <a href=https://github.com/odedw/super-fantasy-queue target="_blank">code</a>
-                
-                
-                    <span class="mx-1">•</span>
-                    <a href=https://soundcloud.com/injagames/sets/super-fantasy-queue target="_blank">music</a>
-                
-            </div>
-            <div class="text-sm mt-2" >Super Fantasy Queue is a short game about the most important decision a hero could make - which line to stand in. Made for Github&#39;s 2013 game off jam.</div>
-        </li>
-    
-        <li class="w-52 px-2 mb-10 flex-shrink-0">
-            <a href=http://caseit.odedwelgreen.com target="_blank"><img alt="caseIt" src=/images/case_it.gif class="w-full h-32  border-solid border-2 border-gray-400"/></a>
-            <a target="_blank" href=http://caseit.odedwelgreen.com class="font-serif">caseIt</a>
-            <div class="flex text-xs">
-                <a href=https://github.com/odedw/caseit target="_blank">code</a>
-                
-                
-            </div>
-            <div class="text-sm mt-2" >A simple web tool for text transformations designed to work with keyboard shortcuts.</div>
-        </li>
-    
-</ul>
-      </div>
+      <main class="container mx-auto" role="main">
+        <div>
+    <div class="mb-10" aria-level="1" role="heading">
+    When I want to learn a concept I try to do it while building something using that concept. It helps me understand it better as it is easier to explore it by actually using it. My projects for the most part either have a well-defined goal, or are explorations guided by curiosity.
     </div>
-    <footer id="footer" class="border-t border-gray-300 border-solid text-xs flex-shrink-0 flex justify-end p-2">
+    <ul class="flex justify-around flex-wrap mt-6">
+        
+            <li class="w-52 px-2 mb-10 flex-shrink-0">
+                <a href=https://bit.ly/cellular-automata target="_blank"><img alt="Cellular Automata Playground" src=/images/cellular_automata_playground.gif class="w-full h-32  border-solid border-2 border-gray-400"/></a>
+                <a target="_blank" href=https://bit.ly/cellular-automata class="font-serif">Cellular Automata Playground</a>
+                <div class="flex text-xs">
+                    <a href=https://github.com/odedw/cellular-automata-playground target="_blank" aria-label="Browse the source code for Cellular Automata Playground">code</a>
+                    
+                        <span class="mx-1">•</span>
+                        <a href=https://www.youtube.com/watch?v=ICpImf7Y3pc target="_blank" aria-label="Watch a demo video of Cellular Automata Playground">video</a>
+                    
+                    
+                </div>
+                <div class="text-sm mt-2" >A tool to explore cellular automata with various rules.</div>
+            </li>
+        
+            <li class="w-52 px-2 mb-10 flex-shrink-0">
+                <a href=https://play.google.com/store/apps/details?id=com.inja.tempogdx target="_blank"><img alt="TempoGDX" src=/images/tempo_gdx.png class="w-full h-32  border-solid border-2 border-gray-400"/></a>
+                <a target="_blank" href=https://play.google.com/store/apps/details?id=com.inja.tempogdx class="font-serif">TempoGDX</a>
+                <div class="flex text-xs">
+                    <a href=https://github.com/odedw/TempoGDX target="_blank" aria-label="Browse the source code for TempoGDX">code</a>
+                    
+                    
+                </div>
+                <div class="text-sm mt-2" >An open source metronome app built with libGDX.</div>
+            </li>
+        
+            <li class="w-52 px-2 mb-10 flex-shrink-0">
+                <a href=http://thedas.odedwelgreen.com target="_blank"><img alt="Map of Thedas" src=/images/thedas.gif class="w-full h-32  border-solid border-2 border-gray-400"/></a>
+                <a target="_blank" href=http://thedas.odedwelgreen.com class="font-serif">Map of Thedas</a>
+                <div class="flex text-xs">
+                    <a href=https://github.com/odedw/world-of-thedas target="_blank" aria-label="Browse the source code for Map of Thedas">code</a>
+                    
+                    
+                </div>
+                <div class="text-sm mt-2" >A searchable map of Thedas - the Dragon Age world.</div>
+            </li>
+        
+            <li class="w-52 px-2 mb-10 flex-shrink-0">
+                <a href=http://www.odedwelgreen.com/karcero target="_blank"><img alt="Karcero" src=/images/karcero.gif class="w-full h-32  border-solid border-2 border-gray-400"/></a>
+                <a target="_blank" href=http://www.odedwelgreen.com/karcero class="font-serif">Karcero</a>
+                <div class="flex text-xs">
+                    <a href=https://github.com/odedw/karcero target="_blank" aria-label="Browse the source code for Karcero">code</a>
+                    
+                    
+                </div>
+                <div class="text-sm mt-2" >A procedural dungeon tile based map generator.</div>
+            </li>
+        
+            <li class="w-52 px-2 mb-10 flex-shrink-0">
+                <a href=http://gameofmusic.odedwelgreen.com target="_blank"><img alt="Game of Music" src=/images/game_of_music.gif class="w-full h-32  border-solid border-2 border-gray-400"/></a>
+                <a target="_blank" href=http://gameofmusic.odedwelgreen.com class="font-serif">Game of Music</a>
+                <div class="flex text-xs">
+                    <a href=https://github.com/odedw/game-of-music target="_blank" aria-label="Browse the source code for Game of Music">code</a>
+                    
+                        <span class="mx-1">•</span>
+                        <a href=https://www.youtube.com/watch?v=bYbnqDYHiHg target="_blank" aria-label="Watch a demo video of Game of Music">video</a>
+                    
+                    
+                </div>
+                <div class="text-sm mt-2" >A music sequencer that uses Conway&#39;s Game of Life&#39;s rules to generate each state. Build and share a url directly to your track.</div>
+            </li>
+        
+            <li class="w-52 px-2 mb-10 flex-shrink-0">
+                <a href=http://sfq.odedwelgreen.com target="_blank"><img alt="Super Fantasy Queue" src=/images/sfq.gif class="w-full h-32  border-solid border-2 border-gray-400"/></a>
+                <a target="_blank" href=http://sfq.odedwelgreen.com class="font-serif">Super Fantasy Queue</a>
+                <div class="flex text-xs">
+                    <a href=https://github.com/odedw/super-fantasy-queue target="_blank" aria-label="Browse the source code for Super Fantasy Queue">code</a>
+                    
+                    
+                        <span class="mx-1">•</span>
+                        <a href=https://soundcloud.com/injagames/sets/super-fantasy-queue target="_blank">soundtrack</a>
+                    
+                </div>
+                <div class="text-sm mt-2" >Super Fantasy Queue is a short game about the most important decision a hero could make - which line to stand in. Made for Github&#39;s 2013 game off jam.</div>
+            </li>
+        
+            <li class="w-52 px-2 mb-10 flex-shrink-0">
+                <a href=http://caseit.odedwelgreen.com target="_blank"><img alt="caseIt" src=/images/case_it.gif class="w-full h-32  border-solid border-2 border-gray-400"/></a>
+                <a target="_blank" href=http://caseit.odedwelgreen.com class="font-serif">caseIt</a>
+                <div class="flex text-xs">
+                    <a href=https://github.com/odedw/caseit target="_blank" aria-label="Browse the source code for caseIt">code</a>
+                    
+                    
+                </div>
+                <div class="text-sm mt-2" >A simple web tool for text transformations designed to work with keyboard shortcuts.</div>
+            </li>
+        
+    </ul>
+</div>
+      </main>
+    </div>
+    <footer role="contentinfo" id="footer" class="border-t border-gray-300 border-solid text-xs flex-shrink-0 flex justify-end p-2">
   <span>Built with <a href="https://www.11ty.dev/">Eleventy</a> + <a href="https://tailwindcss.com/">Tailwind</a> & hosted on
     <a href="http://pages.github.com">GitHub Pages</a>
   </span
