@@ -5,28 +5,32 @@
     "url": "https://bit.ly/cellular-automata",
     "video": "https://www.youtube.com/watch?v=ICpImf7Y3pc",
     "description": "A tool to explore cellular automata with various rules.",
-    "image": "/images/cellular_automata_playground.gif"
+    "thumbnailPath": "/images/cellular_automata_playground",
+    "thumbnailType": "video"
   },
   {
     "name": "TempoGDX",
     "code": "https://github.com/odedw/TempoGDX",
     "url": "https://play.google.com/store/apps/details?id=com.inja.tempogdx",
     "description": "An open source metronome app built with libGDX.",
-    "image": "/images/tempo_gdx.png"
+    "thumbnailPath": "/images/tempo_gdx.webp",
+    "thumbnailType": "image"
   },
   {
     "name": "Map of Thedas",
     "code": "https://github.com/odedw/world-of-thedas",
     "url": "http://thedas.odedwelgreen.com",
     "description": "A searchable map of Thedas - the Dragon Age world.",
-    "image": "/images/thedas.gif"
+    "thumbnailPath": "/images/thedas.webp",
+    "thumbnailType": "image"
   },
   {
     "name": "Karcero",
     "code": "https://github.com/odedw/karcero",
     "url": "http://www.odedwelgreen.com/karcero",
     "description": "A procedural dungeon tile based map generator.",
-    "image": "/images/karcero.gif"
+    "thumbnailPath": "/images/karcero",
+    "thumbnailType": "video"
   },
   {
     "name": "Game of Music",
@@ -34,7 +38,8 @@
     "url": "http://gameofmusic.odedwelgreen.com",
     "video": "https://www.youtube.com/watch?v=bYbnqDYHiHg",
     "description": "A music sequencer that uses Conway's Game of Life's rules to generate each state. Build and share a url directly to your track.",
-    "image": "/images/game_of_music.gif"
+    "thumbnailPath": "/images/game_of_music",
+    "thumbnailType": "video"
   },
   {
     "name": "Super Fantasy Queue",
@@ -42,13 +47,15 @@
     "url": "http://sfq.odedwelgreen.com",
     "music": "https://soundcloud.com/injagames/sets/super-fantasy-queue",
     "description": "Super Fantasy Queue is a short game about the most important decision a hero could make - which line to stand in. Made for Github's 2013 game off jam.",
-    "image": "/images/sfq.gif"
+    "thumbnailPath": "/images/sfq",
+    "thumbnailType": "video"
   },
   {
     "name": "caseIt",
     "code": "https://github.com/odedw/caseit",
     "url": "http://caseit.odedwelgreen.com",
     "description": "A simple web tool for text transformations designed to work with keyboard shortcuts.",
-    "image": "/images/case_it.gif"
+    "thumbnailPath": "/images/case_it",
+    "thumbnailType": "video"
   }
 ]

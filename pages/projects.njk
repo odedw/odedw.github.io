@@ -9,7 +9,16 @@ title: Projects
   <ul class="flex justify-around flex-wrap mt-6">
     {% for project in projects %}
       <li class="w-52 px-2 mb-10 flex-shrink-0">
-        <a href={{ project.url }} target="_blank" rel="noopener"><img alt="{{ project.name }}" src={{project.image}} class="w-full h-32  border-solid border-2 border-gray-400"/></a>
+        <a href={{ project.url }} target="_blank" rel="noopener">
+          {% if project.thumbnailType == "image" %}
+            <img src="{{ project.thumbnailPath }}" alt="{{ project.name }}" class="w-full h-32  border-solid border-2 border-gray-400"/>
+          {% elif project.thumbnailType == "video" %}
+            <video autoplay loop class="w-full h-32  border-solid border-2 border-gray-400 object-fill" alt="{{ project.name }}">
+              <source src="{{project.thumbnailPath}}.webm" type="video/webm">
+              <source src="{{project.thumbnailPath}}.mp4" type="video/mp4">
+            </video>
+          {% endif %}
+        </a>
         <a target="_blank" rel="noopener" href={{ project.url }} class="font-serif">{{ project.name }}</a>
         <div class="flex text-xs">
           <a href={{ project.code }} target="_blank" rel="noopener" aria-label="Browse the source code for {{project.name}}">code</a>
