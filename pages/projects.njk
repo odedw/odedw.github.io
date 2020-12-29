@@ -13,7 +13,7 @@ title: Projects
           {% if project.thumbnailType == "image" %}
             <img src="{{ project.thumbnailPath }}" alt="{{ project.name }}" class="w-full h-32  border-solid border-2 border-gray-400"/>
           {% elif project.thumbnailType == "video" %}
-            <video autoplay loop class="w-full h-32  border-solid border-2 border-gray-400 object-fill" alt="{{ project.name }}">
+            <video muted autoplay loop class="w-full h-32  border-solid border-2 border-gray-400 object-fill" alt="{{ project.name }}">
               <source src="{{project.thumbnailPath}}.webm" type="video/webm">
               <source src="{{project.thumbnailPath}}.mp4" type="video/mp4">
             </video>
