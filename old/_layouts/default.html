@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+
+    {% include head.html %}
+
+    <body class="theme-base-10">
+
+        <!-- Wrap is the content to shift when toggling the sidebar. We wrap the content to avoid any CSS collisions with our real content. -->
+        <div class="wrap">
+            <div class="masthead">
+                <div class="container">
+                    <h1 class="masthead-title">
+                        <a href="/" title="Home">{{ site.title }}</a>
+                    </h1>
+                    <nav>
+                        <a href="/blog" title="Blog">blog</a>
+                        <span>•</span>
+                        <a href="/projects" title="Projects">projects</a>
+                        <span>•</span>
+                        <a href="/music" title="Music">music</a>
+                        <span>•</span>
+                        <a href="/" title="About">about</a>
+
+                    </nav>
+                    <div class="social-icons">
+                        <a href="https://github.com/odedw" target="_blank" rel="noopener" class='social icon-github' title="Github"></a>
+                        <a href="https://twitter.com/InjaLab" target="_blank" rel="noopener" class='social icon-twitter' title="Twitter"></a>
+                        <a href="http://www.linkedin.com/pub/oded-welgreen/10/0/a0b" target="_blank" rel="noopener" class='social icon-linkedin' title="Linkedin"></a>
+                        <a href="mailto:oded.welgreen@gmail.com" class='social icon-mail' title="Email"> </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container content">
+                {{ content }}
+
+            </div>
+
+        </div>
+        {% include footer.html %}
+        {% include scripts.html %}
+    </body>
+</html>

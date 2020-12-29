@@ -1,0 +1,46 @@
+[
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/FiU0t6u6bjk",
+    "title": "The track Duck & Cover on Youtube"
+  },
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/r8w_whE5o0s",
+    "title": "The track Kate, Who Tamed the Wind on Youtube"
+  },
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/ThV0coBLJN4",
+    "title": "The track Unconditional on Youtube"
+  },
+  {
+    "type": "bandcamp",
+    "album": "2131887684",
+    "url": "https://ishim.bandcamp.com/album/new-things",
+    "name": "New Things by ISHIM",
+    "title": "New Things by ISHIM on Bandcamp"
+  },
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/Z9d-GqC2EJA",
+    "title": "The track New things performed live on Youtube"
+  },
+  {
+    "type": "bandcamp",
+    "album": "1259962768",
+    "url": "https://amitaylev.bandcamp.com/album/here-i-am",
+    "name": "Here I am by Amitay Lev",
+    "title": "Here I am by Amitay Lev on Bandcamp"
+  },
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/BvwL8mpI0wo",
+    "title": "The track All Will Be Revealed on Youtube"
+  },
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/b8auobq7r18",
+    "title": "A cover of I am the Walrus by the Beatles on Youtube"
+  }
+]

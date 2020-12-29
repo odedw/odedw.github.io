@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Projects",
+    "link": "/projects",
+    "thumbnailType": "video",
+    "thumbnailPath": "/images/karcero"
+  },
+  {
+    "name": "Music",
+    "link": "/music",
+    "thumbnailType": "image",
+    "thumbnailPath": "/images/music.webp"
+  },
+  {
+    "name": "Art",
+    "link": "/art",
+    "thumbnailType": "video",
+    "thumbnailPath": "/images/cellular_automata_playground"
+  },
+  {
+    "name": "About",
+    "link": "/about",
+    "thumbnailType": "image",
+    "thumbnailPath": "/images/me.webp"
+  }
+]
