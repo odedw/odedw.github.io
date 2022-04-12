@@ -480,12 +480,12 @@ video {
   justify-content: flex-end;
 }
 
-.justify-around {
-  justify-content: space-around;
+.justify-center {
+  justify-content: center;
 }
 
-.justify-evenly {
-  justify-content: space-evenly;
+.justify-around {
+  justify-content: space-around;
 }
 
 .justify-self-end {
@@ -770,7 +770,7 @@ a:hover {
 }
 
 .container {
-  max-width: 45rem;
+  max-width: 55rem;
 }
 
 .nav-inner-container {

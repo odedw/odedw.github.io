@@ -69,14 +69,12 @@ title: Art
 <div class="">
   <div class="mb-10" aria-level="1" role="heading">
         I am interested in procedurally generated art as well as the intersection between art, technology and music. I often try to find a way to combine the three.
-        Here are some of my attempts to explore these concepts.
+        <br>I recently participated in <a href="http://genuary.art/">Genuary 2022</a>, you can find my entries and more works on my <a href="https://www.instagram.com/inja.lab/">Instagram</a> account.
+        <br>Here are some of my other works.
     </div>
   {% for link in art %}
     {% if link.type == "youtube" %}
       {{ youtube(link.url, link.description, link.title) }}
-    {% elif link.type == "instagram"%}
-      {{ insta(link.id) }}
     {% endif %}
   {% endfor %}
-  <script async src="//www.instagram.com/embed.js"></script>
 </div>
