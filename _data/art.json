@@ -1,6 +1,12 @@
 [
   {
     "type": "youtube",
+    "url": "https://www.youtube.com/embed/EUWKE76wVMQ",
+    "description": "A collaboration with the music producer Precursor. This work, created with Processing and GauGAN2, won an honorable mention at the Art of Neuroscience 2022 competition.",
+    "title": "Precursor - Opulent (Music Video)"
+  },
+  {
+    "type": "youtube",
     "url": "https://www.youtube.com/embed/p3mymCWzhV8",
     "description": "A visualization and audibilization (conversion of data to sound) of different maze generation algorithms.",
     "title": "The Sound of Maze Generation on Youtube"
