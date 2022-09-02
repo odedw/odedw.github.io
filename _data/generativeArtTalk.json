@@ -1,0 +1,231 @@
+[
+  {
+    "slideNumber": 1,
+    "title": "Title",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://tylerxhobbs.com/fidenza"
+      }
+    ]
+  },
+  {
+    "slideNumber": 2,
+    "title": "Follow along",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://www.instagram.com/p/Ca0-iVNAb5W/"
+      }
+    ]
+  },
+  {
+    "slideNumber": 3,
+    "title": "About me",
+    "links": [
+      {
+        "name": "Solar System",
+        "href": "https://www.youtube.com/watch?v=X0dCrw6pvnE"
+      },
+      {
+        "name": "Maze Generation",
+        "href": "https://www.youtube.com/watch?v=p3mymCWzhV8"
+      }
+    ]
+  },
+  {
+    "slideNumber": 4,
+    "title": "WIIFY",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://openprocessing.org/sketch/1611296"
+      }
+    ]
+  },
+  {
+    "title": "You are an artist",
+    "slideNumber": 5,
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://www.instagram.com/p/CaBdfLutJXS/"
+      }
+    ]
+  },
+  {
+    "slideNumber": 6,
+    "title": "Problem solvers",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://www.instagram.com/p/CbbcqR7PTGY/"
+      },
+      {
+        "name": "Music Video",
+        "href": "https://www.youtube.com/watch?v=EUWKE76wVMQ"
+      }
+    ]
+  },
+  {
+    "slideNumber": 7,
+    "title": "Weird stuff",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://www.instagram.com/p/CaSM2RdLF9w/"
+      }
+    ]
+  },
+  {
+    "slideNumber": 8,
+    "title": "NFTs",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://www.amygoodchild.com/art/code"
+      }
+    ]
+  },
+  {
+    "slideNumber": 9,
+    "title": "Terms",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://www.instagram.com/p/CZitIlVAME5/"
+      }
+    ]
+  },
+  {
+    "slideNumber": 10,
+    "title": "What is Art",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://www.instagram.com/p/CY8KCUpA_u7/"
+      },
+      {
+        "name": "Blog post",
+        "href": "https://www.amygoodchild.com/blog/what-is-generative-art"
+      }
+    ]
+  },
+  {
+    "slideNumber": 11,
+    "title": "Autonomous",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://foundation.app/@amygoodchild/foundation/80549"
+      }
+    ]
+  },
+  {
+    "slideNumber": 12,
+    "title": "Randomness",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://en.wikipedia.org/wiki/Unknown_Pleasures"
+      }
+    ]
+  },
+  {
+    "slideNumber": 13,
+    "title": "Uneven Distributions",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://editor.p5js.org/amygoodchild/sketches/xHSIoZDbq"
+      }
+    ]
+  },
+  {
+    "slideNumber": 14,
+    "title": "Rules",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://conwaylife.com/"
+      }
+    ]
+  },
+  {
+    "slideNumber": 15,
+    "title": "Cellular Automata",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://www.youtube.com/watch?v=ICpImf7Y3pc"
+      }
+    ]
+  },
+  {
+    "slideNumber": 16,
+    "title": "Wall Drawing 51",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://massmoca.org/event/walldrawing51/"
+      }
+    ]
+  },
+  {
+    "slideNumber": 17,
+    "title": "Wall Drawing 614",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://massmoca.org/event/walldrawing614/"
+      }
+    ]
+  },
+  {
+    "slideNumber": 18,
+    "title": "Natural Systems",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://www.instagram.com/p/CbyE5GLMWZ9/"
+      }
+    ]
+  },
+  {
+    "title": "Sketch 1",
+    "links": [
+      {
+        "name": "Code",
+        "href": "."
+      }
+    ]
+  },
+  {
+    "title": "Sketch 2",
+    "links": [
+      {
+        "name": "Code",
+        "href": "."
+      }
+    ]
+  },
+  {
+    "title": "Sketch 3",
+    "links": [
+      {
+        "name": "Code",
+        "href": "."
+      }
+    ]
+  },
+  {
+    "slideNumber": "21",
+    "title": "What's next",
+    "links": [
+      {
+        "name": "Artwork Source",
+        "href": "https://www.instagram.com/p/CagWSxkgX7v/"
+      }
+    ]
+  }
+]
