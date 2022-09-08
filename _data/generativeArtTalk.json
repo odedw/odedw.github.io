@@ -1,231 +1,256 @@
-[
-  {
-    "slideNumber": 1,
-    "title": "Title",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://tylerxhobbs.com/fidenza"
-      }
-    ]
-  },
-  {
-    "slideNumber": 2,
-    "title": "Follow along",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://www.instagram.com/p/Ca0-iVNAb5W/"
-      }
-    ]
-  },
-  {
-    "slideNumber": 3,
-    "title": "About me",
-    "links": [
-      {
-        "name": "Solar System",
-        "href": "https://www.youtube.com/watch?v=X0dCrw6pvnE"
-      },
-      {
-        "name": "Maze Generation",
-        "href": "https://www.youtube.com/watch?v=p3mymCWzhV8"
-      }
-    ]
-  },
-  {
-    "slideNumber": 4,
-    "title": "WIIFY",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://openprocessing.org/sketch/1611296"
-      }
-    ]
-  },
-  {
-    "title": "You are an artist",
-    "slideNumber": 5,
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://www.instagram.com/p/CaBdfLutJXS/"
-      }
-    ]
-  },
-  {
-    "slideNumber": 6,
-    "title": "Problem solvers",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://www.instagram.com/p/CbbcqR7PTGY/"
-      },
-      {
-        "name": "Music Video",
-        "href": "https://www.youtube.com/watch?v=EUWKE76wVMQ"
-      }
-    ]
-  },
-  {
-    "slideNumber": 7,
-    "title": "Weird stuff",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://www.instagram.com/p/CaSM2RdLF9w/"
-      }
-    ]
-  },
-  {
-    "slideNumber": 8,
-    "title": "NFTs",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://www.amygoodchild.com/art/code"
-      }
-    ]
-  },
-  {
-    "slideNumber": 9,
-    "title": "Terms",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://www.instagram.com/p/CZitIlVAME5/"
-      }
-    ]
-  },
-  {
-    "slideNumber": 10,
-    "title": "What is Art",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://www.instagram.com/p/CY8KCUpA_u7/"
-      },
-      {
-        "name": "Blog post",
-        "href": "https://www.amygoodchild.com/blog/what-is-generative-art"
-      }
-    ]
-  },
-  {
-    "slideNumber": 11,
-    "title": "Autonomous",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://foundation.app/@amygoodchild/foundation/80549"
-      }
-    ]
-  },
-  {
-    "slideNumber": 12,
-    "title": "Randomness",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://en.wikipedia.org/wiki/Unknown_Pleasures"
-      }
-    ]
-  },
-  {
-    "slideNumber": 13,
-    "title": "Uneven Distributions",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://editor.p5js.org/amygoodchild/sketches/xHSIoZDbq"
-      }
-    ]
-  },
-  {
-    "slideNumber": 14,
-    "title": "Rules",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://conwaylife.com/"
-      }
-    ]
-  },
-  {
-    "slideNumber": 15,
-    "title": "Cellular Automata",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://www.youtube.com/watch?v=ICpImf7Y3pc"
-      }
-    ]
-  },
-  {
-    "slideNumber": 16,
-    "title": "Wall Drawing 51",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://massmoca.org/event/walldrawing51/"
-      }
-    ]
-  },
-  {
-    "slideNumber": 17,
-    "title": "Wall Drawing 614",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://massmoca.org/event/walldrawing614/"
-      }
-    ]
-  },
-  {
-    "slideNumber": 18,
-    "title": "Natural Systems",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://www.instagram.com/p/CbyE5GLMWZ9/"
-      }
-    ]
-  },
-  {
-    "title": "Sketch 1",
-    "links": [
-      {
-        "name": "Code",
-        "href": "."
-      }
-    ]
-  },
-  {
-    "title": "Sketch 2",
-    "links": [
-      {
-        "name": "Code",
-        "href": "."
-      }
-    ]
-  },
-  {
-    "title": "Sketch 3",
-    "links": [
-      {
-        "name": "Code",
-        "href": "."
-      }
-    ]
-  },
-  {
-    "slideNumber": "21",
-    "title": "What's next",
-    "links": [
-      {
-        "name": "Artwork Source",
-        "href": "https://www.instagram.com/p/CagWSxkgX7v/"
-      }
-    ]
-  }
-]
+{
+  "slides": [
+    {
+      "slideNumber": 1,
+      "title": "Title",
+      "links": [
+        {
+          "name": "Fidenza, by Tyler Hobbs",
+          "href": "https://tylerxhobbs.com/fidenza"
+        }
+      ]
+    },
+    {
+      "slideNumber": 3,
+      "title": "My works",
+      "links": [
+        {
+          "name": "Solar System",
+          "href": "https://www.youtube.com/watch?v=X0dCrw6pvnE"
+        },
+        {
+          "name": "Maze Generation",
+          "href": "https://www.youtube.com/watch?v=p3mymCWzhV8"
+        }
+      ]
+    },
+    {
+      "slideNumber": 4,
+      "title": "WIIFY",
+      "links": [
+        {
+          "name": "220708a, by takawo",
+          "href": "https://openprocessing.org/sketch/1611296"
+        }
+      ]
+    },
+    {
+      "title": "You have the tools",
+      "slideNumber": 5,
+      "links": [
+        {
+          "name": "Sol LeWitt's Wall Drawing 725A, by me",
+          "href": "https://www.instagram.com/p/CaBdfLutJXS/"
+        }
+      ]
+    },
+    {
+      "slideNumber": 6,
+      "title": "Making art is good practice",
+      "links": [
+        {
+          "name": "Day 10 of Genuary 2022, by me",
+          "href": "https://www.instagram.com/p/CbbcqR7PTGY/"
+        },
+        {
+          "name": "Precursor - Opulent, music video, visuals by me",
+          "href": "https://www.youtube.com/watch?v=EUWKE76wVMQ"
+        }
+      ]
+    },
+    {
+      "slideNumber": 7,
+      "title": "Making weird stuff is fun",
+      "links": [
+        {
+          "name": "Smoked waterfall, by me",
+          "href": "https://www.instagram.com/p/CaSM2RdLF9w/"
+        }
+      ]
+    },
+    {
+      "slideNumber": 9,
+      "title": "Terms",
+      "links": [
+        {
+          "name": "Smoked Mondrian, by me",
+          "href": "https://www.instagram.com/p/CZitIlVAME5/"
+        }
+      ]
+    },
+    {
+      "slideNumber": 10,
+      "title": "What is Art",
+      "links": [
+        {
+          "name": "Flow fields, by me",
+          "href": "https://www.instagram.com/p/CY8KCUpA_u7/"
+        }
+      ]
+    },
+    {
+      "slideNumber": 11,
+      "title": "Autonomous process",
+      "links": [
+        {
+          "name": "No Apologies, by Amy Goodchild",
+          "href": "https://foundation.app/@amygoodchild/foundation/80549"
+        },
+        {
+          "name": "Blog post - Amy Goodchild - What is generative art",
+          "href": "https://www.amygoodchild.com/blog/what-is-generative-art"
+        }
+      ]
+    },
+    {
+      "slideNumber": 12,
+      "title": "Randomness",
+      "links": [
+        {
+          "name": "Cover of Joy Division's Unknown Pleasures album, by Peter Saville",
+          "href": "https://en.wikipedia.org/wiki/Unknown_Pleasures"
+        }
+      ]
+    },
+    {
+      "slideNumber": 13,
+      "title": "Uneven Distributions",
+      "links": [
+        {
+          "name": "Different easings, by Amy Goodchild",
+          "href": "https://editor.p5js.org/amygoodchild/sketches/xHSIoZDbq"
+        }
+      ]
+    },
+    {
+      "slideNumber": 14,
+      "title": "Rules",
+      "links": [
+        {
+          "name": "Conway's game of life, by John Horton Conway",
+          "href": "https://conwaylife.com/"
+        },
+        {
+          "name": "Cellular Automata Video, by me",
+          "href": "https://www.youtube.com/watch?v=ICpImf7Y3pc"
+        },
+        {
+          "name": "Cellular Automata Playground, by me",
+          "href": "https://www.odedwelgreen.com/cellular-automata-playground/"
+        }
+      ]
+    },
+    {
+      "slideNumber": 16,
+      "title": "Wall Drawing 51",
+      "links": [
+        {
+          "name": "Sol LeWitt's wall Drawing 51, Massachusetts Museum of Contemporary Art",
+          "href": "https://massmoca.org/event/walldrawing51/"
+        }
+      ]
+    },
+    {
+      "slideNumber": 17,
+      "title": "Wall Drawing 614",
+      "links": [
+        {
+          "name": "Sol LeWitt's wall Drawing 614, Massachusetts Museum of Contemporary Art",
+          "href": "https://massmoca.org/event/walldrawing614/"
+        }
+      ]
+    },
+    {
+      "slideNumber": 18,
+      "title": "Natural Systems",
+      "links": [
+        {
+          "name": "Attraction/repulsion, by me",
+          "href": "https://www.instagram.com/p/CbyE5GLMWZ9/"
+        }
+      ]
+    },
+    {
+      "slideNumber": 19,
+      "title": "Crystal Growth",
+      "links": [
+        {
+          "name": "Pixel Crystal, by Vobarkun",
+          "href": "https://old.reddit.com/r/generative/comments/whnsjx/pixel_crystal/"
+        }
+      ]
+    },
+    {
+      "slideNumber": 20,
+      "title": "Space",
+      "links": [
+        {
+          "name": "Space, by Melissa Rodriguez",
+          "href": "https://openprocessing.org/sketch/1581771"
+        }
+      ]
+    },
+
+    {
+      "slideNumber": "23",
+      "title": "What's next",
+      "links": [
+        {
+          "name": "Patchwork cities, by me",
+          "href": "https://www.instagram.com/p/CagWSxkgX7v/"
+        },
+        {
+          "name": "The Coding Train",
+          "href": "https://thecodingtrain.com/"
+        },
+        {
+          "name": "Genuary 2022",
+          "href": "https://genuary.art/"
+        },
+        {
+          "name": "OpenProcessing.org",
+          "href": "https://openprocessing.org/"
+        },
+        {
+          "name": "Subreddit",
+          "href": "https://old.reddit.com/r/generative/"
+        }
+      ]
+    }
+  ],
+  "sketches": [
+    {
+      "title": "Sketch 1 - Bouncing Balls",
+      "links": [
+        {
+          "name": "Code",
+          "href": "https://editor.p5js.org/odedw/sketches/QvoQ7wVD5"
+        }
+      ]
+    },
+    {
+      "title": "Sketch 2 - Network Particles",
+      "code": "",
+      "links": [
+        {
+          "name": "Code",
+          "href": "https://editor.p5js.org/odedw/sketches/QvoQ7wVD5"
+        }
+      ]
+    },
+    {
+      "title": "Sketch 3 - Print 10",
+      "code": "https://editor.p5js.org/odedw/sketches/XVyE6PN76",
+      "links": [
+        {
+          "name": "Code",
+          "href": "https://editor.p5js.org/odedw/sketches/QvoQ7wVD5"
+        },
+        {
+          "name": "Book - 10 PRINT CHR$(205.5+RND(1)); : GOTO 10",
+          "href": "https://10print.org/"
+        }
+      ]
+    }
+  ]
+}

@@ -12,25 +12,28 @@ title: Intro to Generative Art with P5.js
 </style>
 <div class="pb-6 mt-10">
   <a href=".">
-    <h2 class="inline-block  text-3xl ">Slides</h2>
+    <h2 class="inline-block  text-3xl mb-5">Slides</h2>
   </a>
-  <ul class="flex justify-center flex-wrap mt-10 gap-3">
-    {% for slide in generativeArtTalk %}
-      <li class="flex-shrink-0 slide w-48">
-        <div class="text-sm mb-2">
-          {% if slide.slideNumber%}
-            Slide {{slide.slideNumber}} - 
-          {% endif %}
-          {{slide.title}}</div>
-        <div class="px-2 mb-10 border link-container">
-          <ul>
-            {% for link in slide.links %}
-              <li>
-                <a href={{link.href}} target="_blank">• {{link.name}}</a>
-              </li>
-            {% endfor %}
-            <ul></div>
-            <li>
-            {% endfor %}
-          </ul>
-        </div>
+  <ul class="">
+    {% for slide in generativeArtTalk.slides %}
+      <li class="mt-4">
+        <h3>Slide {{slide.slideNumber}} - {{slide.title}}</h3>
+        {% for link in slide.links %}
+        <li>
+          <a href={{link.href}} target="_blank">• {{link.name}}</a>
+        </li>
+      {% endfor %}
+    </li>
+  {% endfor %}
+  {% for sketch in generativeArtTalk.sketches %}
+    <li class="mt-4">
+      <h3>{{sketch.title}}</h3>
+      {% for link in sketch.links %}
+      <li>
+        <a href={{link.href}} target="_blank">• {{link.name}}</a>
+      </li>
+    {% endfor %}
+  </li>
+{% endfor %}
+</ul>
+</div>

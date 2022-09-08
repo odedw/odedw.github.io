@@ -222,6 +222,7 @@ Add the correct display in Chrome and Safari.
 blockquote,
 h1,
 h2,
+h3,
 p {
   margin: 0;
 }
@@ -321,7 +322,8 @@ img {
  */
 
 h1,
-h2 {
+h2,
+h3 {
   font-size: inherit;
   font-weight: inherit;
 }
@@ -471,10 +473,6 @@ video {
   margin-top: 2.5rem;
 }
 
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
-
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -533,10 +531,6 @@ video {
 
 .w-40 {
   width: 10rem;
-}
-
-.w-48 {
-  width: 12rem;
 }
 
 .w-52 {
@@ -631,10 +625,6 @@ video {
 
 .justify-around {
   justify-content: space-around;
-}
-
-.gap-3 {
-  gap: 0.75rem;
 }
 
 .justify-self-end {
