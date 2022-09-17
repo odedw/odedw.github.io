@@ -11,8 +11,56 @@
       ]
     },
     {
+      "slideNumber": 2,
+      "title": "What's in it for you",
+      "links": [
+        {
+          "name": "220708a, by takawo",
+          "href": "https://openprocessing.org/sketch/1611296"
+        }
+      ]
+    },
+    {
+      "title": "You have the tools",
       "slideNumber": 3,
-      "title": "My works",
+      "links": [
+        {
+          "name": "Sol LeWitt's Wall Drawing 725A, by me",
+          "href": "https://www.instagram.com/p/CaBdfLutJXS/"
+        }
+      ]
+    },
+    {
+      "slideNumber": 4,
+      "title": "Making art is great practice",
+      "links": [
+        {
+          "name": "Day 10 of Genuary 2022, by me",
+          "href": "https://www.instagram.com/p/CbbcqR7PTGY/"
+        },
+        {
+          "name": "Precursor - Opulent, music video, visuals by me",
+          "href": "https://www.youtube.com/watch?v=EUWKE76wVMQ"
+        },
+        {
+          "name": "Rabbit hole - GauGAN 2",
+          "href": "http://gaugan.org/gaugan2/"
+        }
+      ]
+    },
+    {
+      "slideNumber": 5,
+      "title": "Making weird stuff is fun",
+      "links": [
+        {
+          "name": "Smoked waterfall, by me",
+          "href": "https://www.instagram.com/p/CaSM2RdLF9w/"
+        }
+      ]
+    },
+    {
+      "slideNumber": 6,
+      "title": "About me",
       "links": [
         {
           "name": "Solar System",
@@ -25,61 +73,21 @@
       ]
     },
     {
-      "slideNumber": 4,
-      "title": "WIIFY",
-      "links": [
-        {
-          "name": "220708a, by takawo",
-          "href": "https://openprocessing.org/sketch/1611296"
-        }
-      ]
-    },
-    {
-      "title": "You have the tools",
-      "slideNumber": 5,
-      "links": [
-        {
-          "name": "Sol LeWitt's Wall Drawing 725A, by me",
-          "href": "https://www.instagram.com/p/CaBdfLutJXS/"
-        }
-      ]
-    },
-    {
-      "slideNumber": 6,
-      "title": "Making art is good practice",
-      "links": [
-        {
-          "name": "Day 10 of Genuary 2022, by me",
-          "href": "https://www.instagram.com/p/CbbcqR7PTGY/"
-        },
-        {
-          "name": "Precursor - Opulent, music video, visuals by me",
-          "href": "https://www.youtube.com/watch?v=EUWKE76wVMQ"
-        }
-      ]
-    },
-    {
       "slideNumber": 7,
-      "title": "Making weird stuff is fun",
-      "links": [
-        {
-          "name": "Smoked waterfall, by me",
-          "href": "https://www.instagram.com/p/CaSM2RdLF9w/"
-        }
-      ]
-    },
-    {
-      "slideNumber": 9,
       "title": "Terms",
       "links": [
         {
           "name": "Smoked Mondrian, by me",
           "href": "https://www.instagram.com/p/CZitIlVAME5/"
+        },
+        {
+          "name": "Rabbit hole - The Genealized Smoke Algorithm",
+          "href": "https://www.youtube.com/watch?v=dVQDYne8Bkc"
         }
       ]
     },
     {
-      "slideNumber": 10,
+      "slideNumber": 8,
       "title": "What is Art",
       "links": [
         {
@@ -89,7 +97,7 @@
       ]
     },
     {
-      "slideNumber": 11,
+      "slideNumber": 9,
       "title": "Autonomous process",
       "links": [
         {
@@ -103,27 +111,35 @@
       ]
     },
     {
-      "slideNumber": 12,
+      "slideNumber": 10,
       "title": "Randomness",
       "links": [
         {
           "name": "Cover of Joy Division's Unknown Pleasures album, by Peter Saville",
           "href": "https://en.wikipedia.org/wiki/Unknown_Pleasures"
+        },
+        {
+          "name": "Rabbit hole - How do lava lamps help with Internet encryption?",
+          "href": "https://www.cloudflare.com/learning/ssl/lava-lamp-encryption/"
         }
       ]
     },
     {
-      "slideNumber": 13,
+      "slideNumber": 11,
       "title": "Uneven Distributions",
       "links": [
         {
           "name": "Different easings, by Amy Goodchild",
           "href": "https://editor.p5js.org/amygoodchild/sketches/xHSIoZDbq"
+        },
+        {
+          "name": "Rabbit hole - List of probability distributions",
+          "href": "https://en.wikipedia.org/wiki/List_of_probability_distributions"
         }
       ]
     },
     {
-      "slideNumber": 14,
+      "slideNumber": 12,
       "title": "Rules",
       "links": [
         {
@@ -141,7 +157,7 @@
       ]
     },
     {
-      "slideNumber": 16,
+      "slideNumber": 13,
       "title": "Wall Drawing 51",
       "links": [
         {
@@ -151,7 +167,7 @@
       ]
     },
     {
-      "slideNumber": 17,
+      "slideNumber": 14,
       "title": "Wall Drawing 614",
       "links": [
         {
@@ -161,7 +177,7 @@
       ]
     },
     {
-      "slideNumber": 18,
+      "slideNumber": 15,
       "title": "Natural Systems",
       "links": [
         {
@@ -171,17 +187,21 @@
       ]
     },
     {
-      "slideNumber": 19,
+      "slideNumber": 16,
       "title": "Crystal Growth",
       "links": [
         {
           "name": "Pixel Crystal, by Vobarkun",
           "href": "https://old.reddit.com/r/generative/comments/whnsjx/pixel_crystal/"
+        },
+        {
+          "name": "Rabbit hole - Crystal growth",
+          "href": "https://en.wikipedia.org/wiki/Crystal_growth"
         }
       ]
     },
     {
-      "slideNumber": 20,
+      "slideNumber": 17,
       "title": "Space",
       "links": [
         {
@@ -190,9 +210,22 @@
         }
       ]
     },
-
     {
-      "slideNumber": "23",
+      "slideNumber": 18,
+      "title": "Space Colonization",
+      "links": [
+        {
+          "name": "Structured Growth",
+          "href": "https://www.reddit.com/r/generative/comments/x546bd/structured_growth/"
+        },
+        {
+          "name": "Rabbit hole - Space Colonization",
+          "href": "https://medium.com/@jason.webb/space-colonization-algorithm-in-javascript-6f683b743dc5"
+        }
+      ]
+    },
+    {
+      "slideNumber": "21",
       "title": "What's next",
       "links": [
         {
@@ -216,6 +249,16 @@
           "href": "https://old.reddit.com/r/generative/"
         }
       ]
+    },
+    {
+      "slideNumber": "22",
+      "title": "Thank you",
+      "links": [
+        {
+          "name": "Isometric City, by me",
+          "href": "https://www.instagram.com/p/Ca0-iVNAb5W/"
+        }
+      ]
     }
   ],
   "sketches": [
@@ -230,21 +273,19 @@
     },
     {
       "title": "Sketch 2 - Network Particles",
-      "code": "",
       "links": [
         {
           "name": "Code",
-          "href": "https://editor.p5js.org/odedw/sketches/QvoQ7wVD5"
+          "href": "https://editor.p5js.org/odedw/sketches/l4CfEcVLG"
         }
       ]
     },
     {
       "title": "Sketch 3 - Print 10",
-      "code": "https://editor.p5js.org/odedw/sketches/XVyE6PN76",
       "links": [
         {
           "name": "Code",
-          "href": "https://editor.p5js.org/odedw/sketches/QvoQ7wVD5"
+          "href": "https://editor.p5js.org/odedw/sketches/XVyE6PN76"
         },
         {
           "name": "Book - 10 PRINT CHR$(205.5+RND(1)); : GOTO 10",
