@@ -1,6 +1,12 @@
 [
   {
     "type": "youtube",
+    "url": "https://www.youtube.com/watch?v=gvTsaYc0Y8w",
+    "description": "A talk I gave at the NashJS meetup about Generative Art.",
+    "title": "Intro to generative art with P5.js"
+  },
+  {
+    "type": "youtube",
     "url": "https://www.youtube.com/embed/EUWKE76wVMQ",
     "description": "A collaboration with the music producer Precursor. This work, created with Processing and GauGAN2, won an honorable mention at the Art of Neuroscience 2022 competition.",
     "title": "Precursor - Opulent (Music Video)"
