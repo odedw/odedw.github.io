@@ -18,6 +18,12 @@
     "thumbnailPath": "/images/cellular_automata_playground"
   },
   {
+    "name": "Talks",
+    "link": "/talks",
+    "thumbnailType": "image",
+    "thumbnailPath": "/images/talks.webp"
+  },
+  {
     "name": "About",
     "link": "/about",
     "thumbnailType": "image",

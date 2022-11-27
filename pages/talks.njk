@@ -1,0 +1,18 @@
+---
+layout: layouts/default.njk
+title: Talks
+---
+
+<div class="">
+  {% for talk in talks %}
+    <div class="w-4/5 mx-auto mb-16">
+      <div class="youtube-container">
+        <iframe title={{ talk.title }} class="youtube" src="{{ talk.url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="mt-2">
+        <a href={{ talk.links }}>links</a>
+      </div>
+      <div class="mt-2">{{ talk.description }}</div>
+    </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,9 @@
+[
+  {
+    "type": "youtube",
+    "url": "https://www.youtube.com/embed/gvTsaYc0Y8w",
+    "description": "A talk I gave at the NashJS meetup about Generative Art.",
+    "links": "/generative-talk",
+    "title": "Intro to generative art with P5.js"
+  }
+]
