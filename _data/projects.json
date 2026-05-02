@@ -1,5 +1,13 @@
 [
   {
+    "name": "Intervalist",
+    "code": "https://github.com/odedw/intervalist",
+    "url": "http://www.odedwelgreen.com/intervalist/",
+    "description": "Define and run custom sequences of timers, back-to-back, with zero friction.",
+    "thumbnailPath": "/images/intervalist.svg",
+    "thumbnailType": "image"
+  },
+  {
     "name": "Cellular Automata Playground",
     "code": "https://github.com/odedw/cellular-automata-playground",
     "url": "https://bit.ly/cellular-automata",

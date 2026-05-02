@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/main.css */ \"./styles/main.css\");\n\r\ndocument.addEventListener(\"DOMContentLoaded\", function () {\r\n  var title = document.title\r\n    .replace(\" · Oded Welgreen\", \"\")\r\n    .replace(\"Oded Welgreen\", \"Index\");\r\n\r\n  if (mixpanel) {\r\n    mixpanel.track(\"PageView\", { Page: title });\r\n  }\r\n});\r\n\n\n//# sourceURL=webpack://odedw.github.io/./src/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_main_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../styles/main.css */ \"./styles/main.css\");\n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  var title = document.title\n    .replace(\" · Oded Welgreen\", \"\")\n    .replace(\"Oded Welgreen\", \"Index\");\n\n  if (mixpanel) {\n    mixpanel.track(\"PageView\", { Page: title });\n  }\n});\n\n\n//# sourceURL=webpack://odedw.github.io/./src/main.js?");
 
 /***/ })
 
