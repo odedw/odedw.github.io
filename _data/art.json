@@ -2,28 +2,28 @@
   {
     "type": "youtube",
     "name": "Precursor — Opulent (Music Video)",
-    "url": "https://www.youtube.com/embed/EUWKE76wVMQ",
+    "url": "https://www.youtube-nocookie.com/embed/EUWKE76wVMQ",
     "description": "A collaboration with the music producer Precursor. This work, created with Processing and GauGAN2, won an honorable mention at the Art of Neuroscience 2022 competition.",
     "title": "Precursor - Opulent (Music Video)"
   },
   {
     "type": "youtube",
     "name": "The Sound of Maze Generation",
-    "url": "https://www.youtube.com/embed/p3mymCWzhV8",
+    "url": "https://www.youtube-nocookie.com/embed/p3mymCWzhV8",
     "description": "A visualization and audibilization (conversion of data to sound) of different maze generation algorithms. This video has over 2 million views.",
     "title": "The Sound of Maze Generation on Youtube"
   },
   {
     "type": "youtube",
     "name": "Cellular Automata Playground",
-    "url": "https://www.youtube.com/embed/ICpImf7Y3pc",
+    "url": "https://www.youtube-nocookie.com/embed/ICpImf7Y3pc",
     "description": "An exploration of cellular automata with various rules. Number of living neighbours visualized by color. I also wrote and recorded the music for this video.",
     "title": "Cellular Automata Playground on Youtube"
   },
   {
     "type": "youtube",
     "name": "Game of Music",
-    "url": "https://www.youtube.com/embed/bYbnqDYHiHg",
+    "url": "https://www.youtube-nocookie.com/embed/bYbnqDYHiHg",
     "description": "A demo of my \"Game of Music\" project, a music sequencer based on Conway's Game of Life.",
     "title": "A demo of Game of Music on Youtube"
   },

@@ -94,6 +94,12 @@ main p a {
   @apply fill-current;
 }
 
+.project-meta a {
+  display: inline-block;
+  padding: 0.4rem 0.1rem;
+  margin-right: 0.1rem;
+}
+
 .project-tag {
   @apply text-gray-400;
   display: inline-block;

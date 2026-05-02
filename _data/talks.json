@@ -3,7 +3,7 @@
     "title": "Intro to Generative Art with P5.js",
     "event": "NashJS Meetup",
     "date": "September 2022",
-    "url": "https://www.youtube.com/embed/gvTsaYc0Y8w",
+    "url": "https://www.youtube-nocookie.com/embed/gvTsaYc0Y8w",
     "description": "A talk I gave at the NashJS meetup, walking through generative art with P5.js — from first principles to a live-coded sketch.",
     "links": [
       { "label": "Slides & companion site", "url": "/generative-talk" }
