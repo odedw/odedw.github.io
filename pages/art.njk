@@ -67,11 +67,12 @@ title: Art
   </div>
 {% endmacro %}
 <div class="">
-  <div class="mb-10" aria-level="1" role="heading">
-        I am interested in procedurally generated art as well as the intersection between art, technology and music. I often try to find a way to combine the three.
-        <br>I recently participated in <a href="http://genuary.art/">Genuary 2022</a>, you can find my entries and more works on my <a href="https://www.instagram.com/inja.lab/">Instagram</a> account.
-        <br>Here are some of my other works.
-    </div>
+  <h1 class="text-3xl font-serif mb-4">Art</h1>
+  <p class="mb-10">
+    I am interested in procedurally generated art as well as the intersection between art, technology and music. I often try to find a way to combine the three.
+    <br>I recently participated in <a href="http://genuary.art/">Genuary 2022</a>, you can find my entries and more works on my <a href="https://www.instagram.com/inja.lab/">Instagram</a> account.
+    <br>Here are some of my other works.
+  </p>
   {% for link in art %}
     {% if link.type == "youtube" %}
       {{ youtube(link.url, link.description, link.title) }}

@@ -18,11 +18,12 @@ title: Music
     </div>
 {% endmacro %}
 <div>
-    <div class="mb-10" aria-level="1" role="heading">
-    Music is an integral part of my life. I started playing piano when I was little, and have played many different instruments in many different bands since then. 
+    <h1 class="text-3xl font-serif mb-4">Music</h1>
+    <p class="mb-10">
+    Music is an integral part of my life. I started playing piano when I was little, and have played many different instruments in many different bands since then.
     I find that very often the creativity and problem solving involved in music making for me is very similar in essence to software development, which is why I enjoy the two.
     Here are a few recordings of music I created or had a part in making.
-    </div>
+    </p>
 
     {% for link in music %}
         {% if link.type == "youtube" %}

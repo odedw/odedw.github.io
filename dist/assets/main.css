@@ -471,6 +471,10 @@ video {
   margin-top: 2.5rem;
 }
 
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .mb-5 {
   margin-bottom: 1.25rem;
 }
@@ -769,6 +773,11 @@ a {
   color: rgba(209, 213, 219, var(--tw-text-opacity));
   transition: all 0.3s;
   color: #4cb4e8;
+}
+
+main p a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .nav-container a {

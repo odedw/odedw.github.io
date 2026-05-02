@@ -16,6 +16,11 @@ a {
   color: #4cb4e8;
 }
 
+main p a {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
 .nav-container a {
   @apply text-gray-400;
 }
