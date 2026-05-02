@@ -13,8 +13,8 @@ module.exports = {
   },
   theme: {
     fontFamily: {
-      //   sans: ["Poppins"],
-      serif: ["Poly"],
+      sans: ["Inter", "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI", "sans-serif"],
+      serif: ["Lora", "Georgia", "serif"],
     },
     container: {},
     extend: {},

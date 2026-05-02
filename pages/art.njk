@@ -2,14 +2,19 @@
 layout: layouts/default.njk
 title: Art
 ---
-{% macro youtube(url, description, title) %}
-  <div class="w-4/5 mx-auto mb-16">
+
+{% macro youtube(item) %}
+  <article class="w-full md:w-4/5 mx-auto mb-16">
+    <header class="mb-3">
+      <h2 class="text-xl font-serif">{{ item.name }}</h2>
+    </header>
     <div class="youtube-container">
-      <iframe title={{ title }} class="youtube" src="{{ url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe title="{{ item.title }}" class="youtube" src="{{ item.url }}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
-    <div class="mt-2">{{ description }}</div>
-  </div>
+    {% if item.description %}<p class="mt-3 text-sm">{{ item.description }}</p>{% endif %}
+  </article>
 {% endmacro %}
+
 {% macro insta(id) %}
   <div class="w-1/2 mx-auto">
     <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/{{ id }}/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="13" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
@@ -66,16 +71,17 @@ title: Art
     </blockquote>
   </div>
 {% endmacro %}
-<div class="">
+
+<div>
   <h1 class="text-3xl font-serif mb-4">Art</h1>
   <p class="mb-10">
     I am interested in procedurally generated art as well as the intersection between art, technology and music. I often try to find a way to combine the three.
     <br>I recently participated in <a href="http://genuary.art/">Genuary 2022</a>, you can find my entries and more works on my <a href="https://www.instagram.com/inja.lab/">Instagram</a> account.
     <br>Here are some of my other works.
   </p>
-  {% for link in art %}
-    {% if link.type == "youtube" %}
-      {{ youtube(link.url, link.description, link.title) }}
+  {% for item in art %}
+    {% if item.type == "youtube" %}
+      {{ youtube(item) }}
     {% endif %}
   {% endfor %}
 </div>

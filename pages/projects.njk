@@ -32,6 +32,13 @@ title: Projects
             <a href={{ project.music }} target="_blank" rel="noopener">soundtrack</a>
           {% endif %}
         </div>
+        {% if project.tags %}
+          <div class="flex flex-wrap mt-2">
+            {% for tag in project.tags %}
+              <span class="project-tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        {% endif %}
         <div class="text-sm mt-2" >{{ project.description}}</div>
       </li>
     {% endfor %}

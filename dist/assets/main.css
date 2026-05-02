@@ -221,6 +221,7 @@ Add the correct display in Chrome and Safari.
 
 blockquote,
 h1,
+h2,
 h3,
 p {
   margin: 0;
@@ -245,7 +246,7 @@ ul {
  */
 
 html {
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 1 */
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif; /* 1 */
   line-height: 1.5; /* 2 */
 }
 
@@ -321,6 +322,7 @@ img {
  */
 
 h1,
+h2,
 h3 {
   font-size: inherit;
   font-weight: inherit;
@@ -450,13 +452,26 @@ video {
   margin-right: 0.25rem;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
 }
 
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
 }
 
 .mt-4 {
@@ -469,6 +484,10 @@ video {
 
 .mt-10 {
   margin-top: 2.5rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
 }
 
 .mb-4 {
@@ -485,10 +504,6 @@ video {
 
 .mb-16 {
   margin-bottom: 4rem;
-}
-
-.ml-2 {
-  margin-left: 0.5rem;
 }
 
 .block {
@@ -613,16 +628,20 @@ video {
   align-items: center;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
 .justify-around {
   justify-content: space-around;
+}
+
+.gap-y-2 {
+  row-gap: 0.5rem;
 }
 
 .justify-self-end {
@@ -678,10 +697,6 @@ video {
      object-fit: fill;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .p-4 {
   padding: 1rem;
 }
@@ -709,7 +724,7 @@ video {
 }
 
 .font-serif {
-  font-family: Poly;
+  font-family: Lora, Georgia, serif;
 }
 
 .text-xs {
@@ -747,6 +762,11 @@ video {
   color: rgba(156, 163, 175, var(--tw-text-opacity));
 }
 
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgba(107, 114, 128, var(--tw-text-opacity));
+}
+
 *, ::before, ::after {
   --tw-shadow: 0 0 #0000;
 }
@@ -761,7 +781,14 @@ video {
 }
 
 body {
-  /* font-family: "Montserrat", sans-serif; */
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif;
+  font-feature-settings: "kern", "liga", "calt";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  font-family: Lora, Georgia, serif;
 }
 
 .bg-my-gray {
@@ -771,8 +798,12 @@ body {
 a {
   --tw-text-opacity: 1;
   color: rgba(209, 213, 219, var(--tw-text-opacity));
-  transition: all 0.3s;
+  transition: color 0.2s ease;
   color: #4cb4e8;
+}
+
+a:hover {
+  color: #d4edf9;
 }
 
 main p a {
@@ -783,27 +814,17 @@ main p a {
 .nav-container a {
   --tw-text-opacity: 1;
   color: rgba(156, 163, 175, var(--tw-text-opacity));
+  text-decoration: none;
 }
 
 .nav-container a:hover {
   color: #d4edf9;
 }
 
-.nav-container svg {
-  transition: all 0.3s;
+.masthead-title {
   --tw-text-opacity: 1;
-  color: rgba(156, 163, 175, var(--tw-text-opacity));
-  fill: currentColor;
-  margin-left: 0.25rem;
-  margin-right: 0.25rem;
-}
-
-.nav-container svg:hover {
-  color: #d4edf9;
-}
-
-a:hover {
-  color: #d4edf9;
+  color: rgba(243, 244, 246, var(--tw-text-opacity));
+  letter-spacing: 0.01em;
 }
 
 .container {
@@ -819,27 +840,55 @@ a:hover {
   margin-top: 0.3rem;
 }
 
-#social-icons {
-  margin-top: 0.5rem;
-}
-
 @media only screen and (min-width: 560px) {
   .nav-inner-container {
     flex-direction: row;
   }
 
-  .nav-items,
-  #social-icons {
+  .nav-items {
     margin-top: 0rem;
-  }
-
-  #social-icons {
-    margin-left: 1rem;
   }
 }
 
-h1 {
-  font-family: Poly;
+.footer-social {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social a {
+  --tw-text-opacity: 1;
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.75rem;
+  transition: color 0.2s ease;
+}
+
+.footer-social a:first-child {
+  margin-left: 0;
+}
+
+.footer-social a:hover {
+  color: #d4edf9;
+}
+
+.footer-social svg {
+  fill: currentColor;
+}
+
+.project-tag {
+  --tw-text-opacity: 1;
+  color: rgba(156, 163, 175, var(--tw-text-opacity));
+  display: inline-block;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.1rem 0.45rem;
+  margin-right: 0.3rem;
+  margin-bottom: 0.3rem;
+  border: 1px solid rgba(156, 163, 175, 0.4);
+  border-radius: 0.2rem;
+  line-height: 1.1;
 }
 
 .youtube-container {

@@ -1,50 +1,59 @@
 [
   {
     "type": "youtube",
+    "name": "Wavelength",
     "url": "https://www.youtube.com/embed/PoBUL5OxEvE",
     "title": "The track Wavelength on Youtube"
   },
   {
     "type": "youtube",
+    "name": "Duck & Cover",
     "url": "https://www.youtube.com/embed/FiU0t6u6bjk",
     "title": "The track Duck & Cover on Youtube"
   },
   {
     "type": "youtube",
+    "name": "Kate, Who Tamed the Wind",
     "url": "https://www.youtube.com/embed/r8w_whE5o0s",
     "title": "The track Kate, Who Tamed the Wind on Youtube"
   },
   {
     "type": "youtube",
+    "name": "Unconditional",
     "url": "https://www.youtube.com/embed/ThV0coBLJN4",
     "title": "The track Unconditional on Youtube"
   },
   {
     "type": "bandcamp",
+    "name": "New Things",
+    "artist": "ISHIM",
     "album": "2131887684",
     "url": "https://ishim.bandcamp.com/album/new-things",
-    "name": "New Things by ISHIM",
     "title": "New Things by ISHIM on Bandcamp"
   },
   {
     "type": "youtube",
+    "name": "New Things (live)",
     "url": "https://www.youtube.com/embed/Z9d-GqC2EJA",
     "title": "The track New things performed live on Youtube"
   },
   {
     "type": "bandcamp",
+    "name": "Here I am",
+    "artist": "Amitay Lev",
     "album": "1259962768",
     "url": "https://amitaylev.bandcamp.com/album/here-i-am",
-    "name": "Here I am by Amitay Lev",
     "title": "Here I am by Amitay Lev on Bandcamp"
   },
   {
     "type": "youtube",
+    "name": "All Will Be Revealed",
     "url": "https://www.youtube.com/embed/BvwL8mpI0wo",
     "title": "The track All Will Be Revealed on Youtube"
   },
   {
     "type": "youtube",
+    "name": "I Am the Walrus (cover)",
     "url": "https://www.youtube.com/embed/b8auobq7r18",
     "title": "A cover of I am the Walrus by the Beatles on Youtube"
   }

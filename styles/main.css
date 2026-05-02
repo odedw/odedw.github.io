@@ -3,7 +3,14 @@
 @tailwind utilities;
 
 body {
-  /* font-family: "Montserrat", sans-serif; */
+  @apply font-sans;
+  font-feature-settings: "kern", "liga", "calt";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  @apply font-serif;
 }
 
 .bg-my-gray {
@@ -12,8 +19,12 @@ body {
 
 a {
   @apply text-gray-300;
-  transition: all 0.3s;
+  transition: color 0.2s ease;
   color: #4cb4e8;
+}
+
+a:hover {
+  color: #d4edf9;
 }
 
 main p a {
@@ -23,30 +34,22 @@ main p a {
 
 .nav-container a {
   @apply text-gray-400;
+  text-decoration: none;
 }
 
 .nav-container a:hover {
   color: #d4edf9;
 }
 
-.nav-container svg {
-  transition: all 0.3s;
-  @apply text-gray-400;
-  @apply fill-current;
-  @apply mx-1;
-}
-
-.nav-container svg:hover {
-  color: #d4edf9;
-}
-
-a:hover {
-  color: #d4edf9;
+.masthead-title {
+  @apply text-gray-100;
+  letter-spacing: 0.01em;
 }
 
 .container {
   max-width: 55rem;
 }
+
 .nav-inner-container {
   flex-direction: column;
   align-items: center;
@@ -55,27 +58,54 @@ a:hover {
 .nav-items {
   margin-top: 0.3rem;
 }
-#social-icons {
-  margin-top: 0.5rem;
-}
 
 @media only screen and (min-width: 560px) {
   .nav-inner-container {
     flex-direction: row;
   }
 
-  .nav-items,
-  #social-icons {
+  .nav-items {
     margin-top: 0rem;
-  }
-
-  #social-icons {
-    margin-left: 1rem;
   }
 }
 
-h1 {
-  @apply font-serif;
+.footer-social {
+  display: flex;
+  align-items: center;
+}
+
+.footer-social a {
+  @apply text-gray-400;
+  display: inline-flex;
+  align-items: center;
+  margin-left: 0.75rem;
+  transition: color 0.2s ease;
+}
+
+.footer-social a:first-child {
+  margin-left: 0;
+}
+
+.footer-social a:hover {
+  color: #d4edf9;
+}
+
+.footer-social svg {
+  @apply fill-current;
+}
+
+.project-tag {
+  @apply text-gray-400;
+  display: inline-block;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 0.1rem 0.45rem;
+  margin-right: 0.3rem;
+  margin-bottom: 0.3rem;
+  border: 1px solid rgba(156, 163, 175, 0.4);
+  border-radius: 0.2rem;
+  line-height: 1.1;
 }
 
 .youtube-container {
@@ -84,6 +114,7 @@ h1 {
   height: 0;
   padding-bottom: 56.25%;
 }
+
 .youtube {
   position: absolute;
   top: 0;
