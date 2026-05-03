@@ -67,8 +67,8 @@
   },
   {
     "name": "caseIt",
-    "code": "https://github.com/odedw/caseit",
-    "url": "http://caseit.odedwelgreen.com",
+    "code": "https://github.com/odedw/case-it",
+    "url": "https://www.odedwelgreen.com/case-it",
     "description": "A simple web tool for text transformations designed to work with keyboard shortcuts.",
     "thumbnailPath": "/images/case_it",
     "thumbnailType": "video",
